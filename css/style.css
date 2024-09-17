@@ -1,10 +1,14 @@
 @import url('globales.css');
 @import url('componentes/navbar.css');
+@import url('sedes.css');
 
-.inicio {
+.wrapper-inicio {
     background-image: url('../img/tecnica.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.inicio {
     height: calc(100vh - 110px);
     position: relative;
 }

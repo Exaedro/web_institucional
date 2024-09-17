@@ -6,7 +6,8 @@ nav {
     padding: 15px;
     display: flex;
     align-items: center;
-    background-color: #395676;
+    background-color: rgba(57, 86, 118, 0.5);
+    backdrop-filter: blur(10px);
 }
 
 .navbar-header img {
@@ -15,7 +16,11 @@ nav {
 }
 
 .navbar-body {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
     margin: 0 auto;
+    width: 100%;
 }
 
 .navbar-body ul {
@@ -25,3 +30,27 @@ nav {
     font-size: 18px;
     font-weight: 600;
 }
+
+a {   
+    display: inline-block;
+    position: relative;
+}
+ 
+a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+  
+:hover:after { 
+    width: 100%; 
+    left: 0; 
+}
+    

@@ -1,0 +1,39 @@
+.sedes-container {
+    display: flex;
+    color: #000;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.sedes-container .sedes {
+    display: flex;
+    gap: 15px;
+}
+
+.sedes-container .sede {
+    margin-bottom: 10px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sedes-container .sede picture {
+    width: 375px;
+    height: 275px;
+}
+
+.sedes-container .sede img {
+    width: 100%;
+    height: 100%;
+}
+
+.sedes-container aside {
+    background-color: rgba(var(--color-primario));
+    color: #fff;
+    padding: 20px;
+}
+
+.sedes-container aside ul {
+    list-style: none;
+}
