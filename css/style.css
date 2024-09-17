@@ -1,5 +1,6 @@
 @import url('globales.css');
 @import url('componentes/navbar.css');
+@import url('sedes.css');
 
 .inicio {
     background-image: url('../img/tecnica.jpg');
