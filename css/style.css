@@ -2,7 +2,7 @@
 @import url('componentes/navbar.css');
 @import url('sedes.css');
 
-body{
+.wrapper-inicio {
     background-image: url('../img/tecnica.jpg');
     background-repeat: no-repeat;
     background-size: cover;

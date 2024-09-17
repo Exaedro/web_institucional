@@ -14,29 +14,31 @@
 <body>
 	<?php include_once("navbar.php"); ?>
 
-	<main class="inicio">
-		<section class="lateral animate__animated animate__fadeInLeft">
-			<h2>Escuela de Educación Secundaria Tecnica Nro°1</h2>
-		</section>
-		<section class="secciones">
-			<article class="especialidades">
-				<p>Especialidades</p>
-				<div class="botones">
-					<a href="#">Electronica</a>
-					<a href="#">Programación</a>
-				</div>
-			</article>
-			<article class="celeste">
-				<p>Inscripciones</p>
-			</article>
-			<article class="celeste">
-				<p>Campos</p>
-			</article>
-			<article class="directivos negro">
-				<p>Directivos</p>
-			</article>
-		</section>
-	</main>
+	<div class="wrapper-inicio">
+		<main class="inicio">
+			<section class="lateral animate__animated animate__fadeInLeft">
+				<h2>Escuela de Educación Secundaria Tecnica Nro°1</h2>
+			</section>
+			<section class="secciones">
+				<article class="especialidades">
+					<p>Especialidades</p>
+					<div class="botones">
+						<a href="#">Electronica</a>
+						<a href="#">Programación</a>
+					</div>
+				</article>
+				<article class="celeste">
+					<p>Inscripciones</p>
+				</article>
+				<article class="celeste">
+					<p>Campos</p>
+				</article>
+				<article class="directivos negro">
+					<p>Directivos</p>
+				</article>
+			</section>
+		</main>
+	</div>
 </body>
 
 </html>
