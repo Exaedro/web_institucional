@@ -12,9 +12,8 @@
 </head>
 
 <body>
-	<?php include_once("navbar.php"); ?>
-
 	<div class="wrapper-inicio">
+		<?php include_once("navbar.php"); ?>
 		<main class="inicio">
 			<section class="lateral animate__animated animate__fadeInLeft">
 				<h2>Escuela de Educación Secundaria Tecnica Nro°1</h2>
