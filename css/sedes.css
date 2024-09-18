@@ -66,3 +66,12 @@
 .sedes-container aside li {
     margin-bottom: 10px;
 }
+
+.sedes-container .sede .nombre {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.sedes-container .sede .direccion {
+    font-size: 15px;
+}

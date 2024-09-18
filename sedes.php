@@ -29,8 +29,11 @@
 								src="img/sedeuniversidad.jpg"
 								alt="Universidad de Munro" />
 						</picture>
-						<p>
-							Universidad de munro (Programación 6°3), Carlos
+						<p class="nombre">
+							Universidad de munro (Programación 6°3)
+						</p>
+						<p class="direccion">
+							Carlos
 							villate 4480
 						</p>
 					</article>
@@ -40,8 +43,11 @@
 								src="img/sedetecnica.jpg"
 								alt="Escuela Tecnica Nro1" />
 						</picture>
-						<p>
-							Técnica 1 Vicente López “Eduardo Ader”, Cerrito 3966
+						<p class="nombre">
+							Técnica 1 Vicente López “Eduardo Ader”
+						</p>
+						<p class="direccion">
+							Cerrito 3966
 						</p>
 					</article>
 				</div>
