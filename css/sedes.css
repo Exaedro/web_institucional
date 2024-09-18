@@ -1,13 +1,30 @@
+.wrapper-sedes nav {
+    background-color: #395676;
+}
+
 .sedes-container {
     display: flex;
+    justify-content: space-around;
     color: #000;
-    width: 1200px;
-    margin: 0 auto;
+    width: 1500px;
+    margin: 50px auto;
 }
 
 .sedes-container .sedes {
     display: flex;
+    flex-direction: column;
     gap: 15px;
+}
+
+.sedes-container .sedes h2 {
+    font-size: 32px;
+    text-align: center;
+}
+
+.sedes-container .sedes div {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
 }
 
 .sedes-container .sede {
@@ -19,8 +36,8 @@
 }
 
 .sedes-container .sede picture {
-    width: 375px;
-    height: 275px;
+    width: 480px;
+    height: 360px;
 }
 
 .sedes-container .sede img {
@@ -29,11 +46,23 @@
 }
 
 .sedes-container aside {
-    background-color: rgba(var(--color-primario));
+    background-color: rgba(var(--color-primario), 65%);
     color: #fff;
-    padding: 20px;
+    padding: 35px;
+    max-width: 408px;
+    border-radius: 35px;
+}
+
+.sedes-container aside h2 {
+    font-size: 32px;
+    margin-bottom: 24px;
 }
 
 .sedes-container aside ul {
     list-style: none;
+    font-size: 18px;
+}
+
+.sedes-container aside li {
+    margin-bottom: 10px;
 }
