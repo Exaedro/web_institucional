@@ -11,7 +11,6 @@
             <li><a href="./sobre_nosotros.php">Acerca de nosotros</a></li>
             <li><a href="#">Directivos</a></li>
             <li><a href="#">Porque la técnica</a></li>
-            <li><a href="#">Posgrado</a></li>
             <li><a href="#">Estudiantes</a></li>
             <li><a href="./contacto.php">Contacto</a></li>
         </ul>
