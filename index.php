@@ -29,7 +29,7 @@
 				<article class="celeste">
 					<p>Inscripciones</p>
 				</article>
-				<article class="celeste">
+				<article class="campos celeste">
 					<p>Campos</p>
 				</article>
 				<article class="directivos negro">
