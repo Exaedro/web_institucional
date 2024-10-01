@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <?php include_once("../navbar.php"); ?>
+    <?php include_once("./navbar.php"); ?>
 
     <main id="sobre_nosotros">
 
