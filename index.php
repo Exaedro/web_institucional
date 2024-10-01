@@ -26,10 +26,10 @@
 						<a href="#">Programación</a>
 					</div>
 				</article>
-				<article class="celeste">
+				<article class="celeste" id="inscripciones">
 					<p>Inscripciones</p>
 				</article>
-				<article class="campos celeste">
+				<article class="celeste" id="campos">
 					<p>Campos</p>
 				</article>
 				<article class="directivos negro">
@@ -40,4 +40,58 @@
 	</div>
 </body>
 
+<!--hacer que al pasar el mouse por un articulo, cambie la imagen de fondo-->
+<script>
+	const fondo = document.querySelector(".wrapper-inicio");
+	const electronica = document.querySelector(".especialidades a:nth-child(1)");
+	const programacion = document.querySelector(".especialidades a:nth-child(2)");
+	const inscripciones = document.querySelector(".celeste#inscripciones");
+	const campos = document.querySelector(".celeste#campos");
+	const directivos = document.querySelector(".directivos");
+
+	//cambiar la imagen de fondo de la seccion especialidades
+	electronica.addEventListener("mouseenter", function () {
+		fondo.style.backgroundImage = "url('img/sedeuniversidad.jpg')";
+	})
+	
+	electronica.addEventListener("mouseleave", function () {
+		fondo.style.backgroundImage = "url('img/tecnica.jpg')";
+	})
+	
+	programacion.addEventListener("mouseenter", function () {
+		fondo.style.backgroundImage = "url('img/sedeuniversidad.jpg')";
+	})
+
+	programacion.addEventListener("mouseleave", function () {
+		fondo.style.backgroundImage = "url('img/tecnica.jpg')";
+	})
+
+	//cambiar la imagen de fondo de la seccion inscripciones
+	inscripciones.addEventListener("mouseenter", function () {
+		fondo.style.backgroundImage = "url('img/sedeuniversidad.jpg')";
+	})
+
+	inscripciones.addEventListener("mouseleave", function () {
+		fondo.style.backgroundImage = "url('img/tecnica.jpg')";
+	})
+
+	//cambiar la imagen de fondo de la seccion campos
+	campos.addEventListener("mouseenter", function () {
+		fondo.style.backgroundImage = "url('img/sedeuniversidad.jpg')";
+	})
+
+	campos.addEventListener("mouseleave", function () {
+		fondo.style.backgroundImage = "url('img/tecnica.jpg')";
+	})
+
+	//cambiar la imagen de fondo de la seccion directivos
+	directivos.addEventListener("mouseenter", function () {
+		fondo.style.backgroundImage = "url('img/sedeuniversidad.jpg')";
+	})
+
+	directivos.addEventListener("mouseleave", function () {
+		fondo.style.backgroundImage = "url('img/tecnica.jpg')";
+	})
+
+	</script>
 </html>
