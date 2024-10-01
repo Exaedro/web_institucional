@@ -1,0 +1,91 @@
+-- phpMyAdmin SQL Dump
+-- version 5.2.0
+-- https://www.phpmyadmin.net/
+--
+-- Servidor: 127.0.0.1
+-- Tiempo de generación: 02-10-2024 a las 01:08:47
+-- Versión del servidor: 10.4.24-MariaDB
+-- Versión de PHP: 8.1.6
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+--
+-- Base de datos: `admindb`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `admin_user`
+--
+
+CREATE TABLE `admin_user` (
+  `id` int(11) NOT NULL,
+  `user_name` varchar(33) NOT NULL,
+  `password` varchar(16) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Volcado de datos para la tabla `admin_user`
+--
+
+INSERT INTO `admin_user` (`id`, `user_name`, `password`) VALUES
+(1, 'maxi', '123');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `mail`
+--
+
+CREATE TABLE `mail` (
+  `id` int(11) NOT NULL,
+  `nombre` varchar(33) NOT NULL,
+  `asunto` varchar(50) NOT NULL,
+  `mensaje` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Volcado de datos para la tabla `mail`
+--
+
+INSERT INTO `mail` (`id`, `nombre`, `asunto`, `mensaje`) VALUES
+(4, 'maxi', 'safjka', 'sjkabs fkasfbvalkjsfbvaf'),
+(5, 'mazi', 'safgasf', 'safasfasf'),
+(6, 'thomsa', 'otro', 'jfkgjeriohgphrig'),
+(7, 'thomsa', 'otro', 'jfkgjeriohgphrig');
+
+--
+-- Índices para tablas volcadas
+--
+
+--
+-- Indices de la tabla `admin_user`
+--
+ALTER TABLE `admin_user`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indices de la tabla `mail`
+--
+ALTER TABLE `mail`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT de las tablas volcadas
+--
+
+--
+-- AUTO_INCREMENT de la tabla `admin_user`
+--
+ALTER TABLE `admin_user`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
+-- AUTO_INCREMENT de la tabla `mail`
+--
+ALTER TABLE `mail`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+COMMIT;
