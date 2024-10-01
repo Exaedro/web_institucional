@@ -1,11 +1,12 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
- 
+
 }
-#sobre_nosotros{
-    padding-top: 5%;
+
+#sobre_nosotros {
+    padding-top: 3%;
     height: auto;
     min-height: 95vh;
     width: 100%;
@@ -14,69 +15,107 @@
     align-items: flex-start;
     background-color: rgb(201, 196, 196);
 }
-#sobre_nosotros #cont_img{
+
+#sobre_nosotros #cont_img {
     width: auto;
     height: auto;
-    padding-left: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    position: relative;
 }
-#sobre_nosotros #cont_img img{
-    filter: brightness(20%);
+
+#sobre_nosotros #cont_img .cont_text_img {
     width: 80%;
+    height: auto;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    gap:20px;
+    padding: 20px;
+    flex-direction: column;
+}
+#sobre_nosotros #cont_img .cont_text_img .tit_item{
+    font-size: 2em;
+}
+#sobre_nosotros #cont_img .cont_text_img .text{
+   width: 80%;
+   font-size: 1.2em;
+   color: rgb(199, 199, 199);
+}
+
+
+
+
+#sobre_nosotros #cont_img img {
+    filter: brightness(20%);
+    width: 100%;
     border-radius: 5px;
     height: 100%;
 }
-#sobre_nosotros #cont_text{
+
+#sobre_nosotros #cont_text {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-  
-    width: 30%;
+
+    width: 50%;
     height: 100%;
 }
-#sobre_nosotros #cont_text h2{
+
+#sobre_nosotros #cont_text h2 {
     color: rgb(17, 17, 17);
     font-weight: bolder;
     position: relative;
-   font-size: 2.6em;
-   font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.6em;
+    font-family: Arial, Helvetica, sans-serif;
 }
-#sobre_nosotros #cont_text h2::before{
+
+#sobre_nosotros #cont_text h2::before {
     content: '';
     position: absolute;
     left: 4px;
     top: 44px;
-    height: 10px;
+    height: 5px;
     width: 50px;
-    background-color:#395676;
+    background-color: #395676;
     padding-left: 80px;
-    
+
     color: #000;
     z-index: 100;
- }
- #sobre_nosotros #cont_text #cont_items{
+}
 
+#sobre_nosotros #cont_text #cont_items {
     display: flex;
     gap: 20px;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-  
     margin-top: 20px;
-    width: 50%;
+    width: 100%;
     height: 100%;
     list-style: none;
 }
-#sobre_nosotros #cont_text #cont_items .item{
+
+#sobre_nosotros #cont_text #cont_items .item {
     font-size: 1.2em;
+    width: auto;
     font-weight: 500;
     color: rgb(36, 36, 36);
     padding: 10px;
     border-radius: 7px;
-    transition: all .1s ease-in-out;
+    transition: all .2s ease-in-out;
     cursor: pointer;
 }
-#sobre_nosotros #cont_text #cont_items .item:hover{
+
+#sobre_nosotros #cont_text #cont_items .item:hover {
+    background-color: #395676;
+    color: rgb(255, 255, 255);
+}
+#sobre_nosotros #cont_text #cont_items .focus {
     background-color: #395676;
     color: rgb(255, 255, 255);
 }
