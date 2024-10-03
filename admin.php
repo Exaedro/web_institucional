@@ -8,7 +8,7 @@ if ($conn->connect_error) {
 }
 
 // Consultar la base de datos
-$sql = "SELECT nombre, asunto, mensaje FROM mail";
+$sql = "SELECT nombre, mail, mensaje FROM mail";
 $result = $conn->query($sql);
 
 // Mostrar los resultados en una lista
@@ -19,8 +19,8 @@ if ($result->num_rows > 0) {
     while ($row = $result->fetch_assoc()) {
         echo "<li>";
         echo "<strong>Nombre:</strong> " . htmlspecialchars($row['nombre']) . "<br>";
-        echo "<strong>Asunto:</strong> " . htmlspecialchars($row['asunto']) . "<br>";
         echo "<strong>Mensaje:</strong> " . htmlspecialchars($row['mensaje']) . "<br>";
+        echo "<strong>Mensaje:</strong> " . htmlspecialchars($row['mail']) . "<br>";
         echo "</li>";
     }
 } else {

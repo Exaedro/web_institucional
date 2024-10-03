@@ -11,16 +11,16 @@ if ($conn->connect_error) {
 }
 
 $nombre = isset($_POST['nombre']) ? $_POST['nombre'] : '';
-$asunto = isset($_POST['asunto']) ? $_POST['asunto'] : '';
+$mail = isset($_POST['mail']) ? $_POST['mail'] : '';
 $mensaje = isset($_POST['mensaje']) ? $_POST['mensaje'] : '';
 
 
-$sql = "INSERT INTO mail (nombre, asunto, mensaje)
+$sql = "INSERT INTO mail (nombre, mail, mensaje)
 VALUES (?, ?, ?)";
 
 $stmt = $conn->prepare($sql);
 
-$stmt->bind_param("sss", $nombre, $asunto, $mensaje);
+$stmt->bind_param("sss", $nombre, $mail, $mensaje);
 $result = $stmt->execute();
 
 if ($result) {
