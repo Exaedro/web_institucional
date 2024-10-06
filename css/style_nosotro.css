@@ -4,7 +4,9 @@
     box-sizing: border-box;
 
 }
-
+body{
+    overflow-x: hidden;
+}
 #sobre_nosotros {
     padding-top: 3%;
     height: auto;
@@ -32,18 +34,20 @@
     left: 10%;
     display: flex;
     justify-content: center;
-    align-items: center ;
-    gap:20px;
+    align-items: center;
+    gap: 20px;
     padding: 20px;
     flex-direction: column;
 }
-#sobre_nosotros #cont_img .cont_text_img .tit_item{
+
+#sobre_nosotros #cont_img .cont_text_img .tit_item {
     font-size: 2em;
 }
-#sobre_nosotros #cont_img .cont_text_img .text{
-   width: 80%;
-   font-size: 1.2em;
-   color: rgb(199, 199, 199);
+
+#sobre_nosotros #cont_img .cont_text_img .text {
+    width: 80%;
+    font-size: 1.2em;
+    color: rgb(199, 199, 199);
 }
 
 
@@ -115,7 +119,64 @@
     background-color: #395676;
     color: rgb(255, 255, 255);
 }
+
 #sobre_nosotros #cont_text #cont_items .focus {
     background-color: #395676;
     color: rgb(255, 255, 255);
+}
+
+@media (max-width: 870px) {
+    #sobre_nosotros {
+
+        flex-direction: column !important;
+    }
+
+    #sobre_nosotros #cont_text {
+        width: 100%;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    #sobre_nosotros #cont_text ul {
+        width: 100%;
+
+        justify-content: flex-start;
+        margin-left: 20%;
+        align-items: flex-start !important;
+    }
+
+    #sobre_nosotros #cont_text ul li {
+        width: 50%;
+
+    }
+  
+
+}
+
+@media (max-width: 650px) {
+    #sobre_nosotros {
+
+        flex-direction: column !important;
+    }
+
+    #sobre_nosotros #cont_img {
+     
+        height: 50% !important;
+    }
+    #sobre_nosotros #cont_img img{
+     
+        height: 60% !important;
+    }
+
+    #sobre_nosotros #cont_img #img_prin {
+
+        height: auto !important;
+    }
+    #sobre_nosotros #cont_img .cont_text_img .text{
+    
+        overflow-y: scroll !important;
+        height: 15vh !important;
+    }
+
+
 }

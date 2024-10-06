@@ -67,7 +67,8 @@
         function elegir_text(index) {
             text_dom.textContent = text_img[index];
             tit_item.textContent = titulos_Imgs[index];
-            img_prin.src = img_srcs[0];
+            //img_prin.src = img_srcs[index];
+            img_prin.src = "./img/tecnica.jpg"
         }
 
         // Agregar el evento click a cada item
