@@ -133,15 +133,21 @@ body{
 
     #sobre_nosotros #cont_text {
         width: 100%;
+      
         justify-content: flex-start;
-        align-items: center;
+        align-items: flex-start;
+        padding: 10px;
     }
-
+    #sobre_nosotros #cont_text h2 {
+        width: 100%;
+        margin-left: 30%;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
     #sobre_nosotros #cont_text ul {
         width: 100%;
-
         justify-content: flex-start;
-        margin-left: 20%;
+        margin-left: 30%;
         align-items: flex-start !important;
     }
 
@@ -177,6 +183,17 @@ body{
         overflow-y: scroll !important;
         height: 15vh !important;
     }
-
+    #sobre_nosotros #cont_text h2 {
+        width: 100%;
+        margin-left: 20%;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    #sobre_nosotros #cont_text ul {
+        width: 100%;
+        justify-content: flex-start;
+        margin-left: 20%;
+        align-items: flex-start !important;
+    }
 
 }
