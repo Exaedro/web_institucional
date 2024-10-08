@@ -51,7 +51,7 @@
 
 	//cambiar la imagen de fondo de la seccion especialidades
 	electronica.addEventListener("mouseenter", function () {
-		fondo.style.backgroundImage = "url('img/sedeuniversidad.jpg')";
+		fondo.style.backgroundImage = "url('img/fondo-electronica.jpg')";
 	})
 	
 	electronica.addEventListener("mouseleave", function () {
@@ -59,7 +59,7 @@
 	})
 	
 	programacion.addEventListener("mouseenter", function () {
-		fondo.style.backgroundImage = "url('img/sedeuniversidad.jpg')";
+		fondo.style.backgroundImage = "url('img/programacion.png')";
 	})
 
 	programacion.addEventListener("mouseleave", function () {

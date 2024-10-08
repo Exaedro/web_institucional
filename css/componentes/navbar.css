@@ -34,18 +34,9 @@ nav {
     cursor: pointer;
     font-size: 1.7em;
 }
+
 .desac:hover {
     background-color: rgba(65, 65, 65, 0.137);
-}
-@media (max-width: 1010px) {
-    .desac {
-        display: block !important;
-    }
-
-    #menu_prin {
-        display: none !important;
-    }
-
 }
 
 .navbar-body ul {
@@ -54,6 +45,32 @@ nav {
     gap: 30px;
     font-size: 18px;
     font-weight: 600;
+}
+
+@media (max-width: 1010px) {
+    .navbar-body ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: rgba(57, 86, 118, 0.9);
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+    .navbar-body ul li {
+        margin: 10px 0;
+    }
+
+    .desac {
+        display: block !important;
+    }
+
+    .navbar-body ul.active {
+        display: flex;
+    }
 }
 
 a {
@@ -74,7 +91,7 @@ a:after {
     width: 0;
 }
 
-:hover:after {
+a:hover:after {
     width: 100%;
     left: 0;
 }
