@@ -4,56 +4,77 @@
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/sedes.css" />
 	<title>Escuela Tecnica</title>
 </head>
 
 <body>
 	<div class="wrapper-sedes">
 		<?php include_once("navbar.php"); ?>
-		<main class="sedes-container">
-			<aside>
-				<h2>Horarios escolares</h2>
-				<ul>
-					<li><strong>Turno Mañana:</strong> 07:35 a 11:55 hs</li>
-					<li><strong>Turno Tarde:</strong> 12:55 a 17:15 hs</li>
-					<li><strong>Turno Vespertino:</strong> 17:35 a 21:45</li>
-				</ul>
-			</aside>
-			<section class="sedes">
-				<h2>Sedes</h2>
-				<div>
-					<article class="sede">
-						<picture>
-							<img
-								src="img/sedeuniversidad.jpg"
-								alt="Universidad de Munro" />
-						</picture>
-						<p class="nombre">
-							Universidad de munro (Programación 6°3)
-						</p>
-						<p class="direccion">
-							Carlos
-							villate 4480
-						</p>
-					</article>
-					<article class="sede">
-						<picture>
-							<img
-								src="img/sedetecnica.jpg"
-								alt="Escuela Tecnica Nro1" />
-						</picture>
-						<p class="nombre">
-							Técnica 1 Vicente López “Eduardo Ader”
-						</p>
-						<p class="direccion">
-							Cerrito 3966
-						</p>
-					</article>
-				</div>
-			</section>
-		</main>
-	</div>
-</body>
+		
+		<main>
+        <section class="sedes">
+            <h1>SEDES</h1>
+            <div class="sedes-container">
+                <div class="sede">
+                    <img src="./img/tecnica1vl.webp" alt="Técnica 1 Vicente López">
+                    <h2>Sede 1: Técnica 1 Vicente López</h2>
+                    <p>Sede principal, ahí van todos los cursos a cursar, a excepción de 6°3 que alterna.</p>
+                    <p><i class="bx bxs-map"></i><a href="https://maps.app.goo.gl/HBeJV1LXDPM1Cvaa6">Cerrito 3966</a> </p>
+                    <p><i class="bx bxl-gmail"></i> cooperadoraet1@gmail.com</p>
+                </div>
+                <div class="sede">
+                    <img src="./img/Centro-Universitario-Vicente-Lopez.webp" alt="Centro Universitario">
+                    <h2>Sede 2: Centro Universitario</h2>
+                    <p>En esa sede solo transcurre 6°3 durante el turno tarde, pasado el turno los estudiantes
+                        se desplazan hasta la técnica a cursar el turno restante.
+                    </p>
+                    <p><i class="bx bxs-map"></i> <a href="https://maps.app.goo.gl/r7cD8PCW8qsLn7C59">Carlos Villate 4480</a></p>
+                    <p><i class="bx bxl-gmail"></i> centro.universitario@mvl.edu.ar</p>
+                </div>
+                <div class="sede">
+                    <img src="./img/polideportivo.webp" alt="Polideportivo">
+                    <h2>Sede 3: Polideportivo</h2>
+                    <p>Allí los estudiantes vienen a realizar educación física.</p>
+                    <p><i class="bx bxs-map"></i><a href="https://maps.app.goo.gl/5Bowze6TkYVKEy7r8"> Av. Bernardo Ader 4057</a></p>
+                    <p><i class="bx bxl-gmail"></i>  delegacion.adelina@vicentelopez.gov.ar </p>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+    <footer>
+        <div class="footer-rectangles">
+            <div class="rectangle rect1"></div>
+            <div class="rectangle rect2"></div>
+            <div class="rectangle rect3"></div>
+            <div class="rectangle rect4"></div>
+            <div class="rectangle rect5"></div>
+            <div class="rectangle rect6"></div>
+            <div class="rectangle rect7"></div>
+            <div class="rectangle rect8"></div>
+            <div class="rectangle rect9"></div>
+            <div class="rectangle rect10"></div>
+        </div>
+    </footer>
+    <script>// Script para abrir y cerrar el menú lateral
+// Script para abrir y cerrar el menú lateral con animación
+const hamburger = document.querySelector('.hamburger');
+const navMenu = document.querySelector('.nav-menu');
 
+hamburger.addEventListener('click', () => {
+    navMenu.classList.toggle('open');
+});
+
+// Cerrar el menú cuando se haga clic fuera del menú
+document.addEventListener('click', (e) => {
+    if (!navMenu.contains(e.target) && !hamburger.contains(e.target)) {
+        navMenu.classList.remove('open');
+    }
+});
+
+        </script>
+      
+    
+</body>
 </html>

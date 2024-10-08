@@ -16,7 +16,7 @@
             <li><a href="#">Directivos</a></li>
             <li><a href="./inscrip.php">Porque la técnica</a></li>
             <li><a href="#">Estudiantes</a></li>
-            <li><a href="#">Sedes</a></li>
+            <li><a href="./sedes.php">Sedes</a></li>
             <li><a href="./contacto.php">Contacto</a></li>
         </ul>
     </div>
