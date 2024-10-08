@@ -141,3 +141,7 @@ body {
     margin: 10px 0;
     color: #333;
 }
+
+#mensaje{
+    resize: none;
+}
