@@ -22,7 +22,7 @@
 
         function textPorque() {
             title.innerHTML = "¿POR QUÉ INSCRiBIRSE EN LA TÉCNICA?"    
-            info.innerHTML = "1"
+            info.innerHTML = "Adquirir habilidades en programación y electrónica es una inversión clave para el futuro. Estas competencias son esenciales en muchas industrias, desde la salud hasta el entretenimiento, y la demanda de profesionales en estas áreas sigue creciendo, lo que asegura oportunidades laborales atractivas y bien remuneradas. Más allá del ámbito laboral, aprender programación y electrónica desarrolla habilidades importantes como la creatividad y la resolución de problemas. Enfrentar desafíos técnicos potencia el pensamiento crítico y lógico, capacidades valiosas en cualquier campo."
             porque.classList.add("active")   
             que.classList.remove("active") 
             cuando.classList.remove("active")        
@@ -45,10 +45,9 @@
         </script>
 
 </head>
+<?php include_once("navbar.php"); ?>
 <body>
     
-    <?php include_once("navbar.php"); ?>
-
     <main>
         <h1 class="ins-title">Incripciones 2025</h1>
         <div class="btn-holder">
@@ -59,7 +58,7 @@
         <div class="content-holder">
                 <div class="content">
                 <h1 id="title">¿POR QUÉ INSCRiBIRSE EN LA TÉCNICA?</h1>
-                <p id="info">default</p></div>
+                <p id="info">Adquirir habilidades en programación y electrónica es una inversión clave para el futuro. Estas competencias son esenciales en muchas industrias, desde la salud hasta el entretenimiento, y la demanda de profesionales en estas áreas sigue creciendo, lo que asegura oportunidades laborales atractivas y bien remuneradas. Más allá del ámbito laboral, aprender programación y electrónica desarrolla habilidades importantes como la creatividad y la resolución de problemas. Enfrentar desafíos técnicos potencia el pensamiento crítico y lógico, capacidades valiosas en cualquier campo.</p></div>
         </div>
     </main>
 </body>
