@@ -26,15 +26,25 @@
 						<a href="#">Programación</a>
 					</div>
 				</article>
+
 				<article class="celeste" id="inscripciones">
-					<p>Inscripciones</p>
+					<a href="#">
+						<p>Inscripciones</p>
+					</a>
 				</article>
+
 				<article class="celeste" id="campos">
-					<p>Campos</p>
+					<a href="#">
+						<p>Campos</p>
+					</a>
 				</article>
+
 				<article class="directivos negro">
-					<p>Directivos</p>
+					<a href="#">
+						<p>Directivos</p>
+					</a>
 				</article>
+
 			</section>
 		</main>
 	</div>
@@ -68,7 +78,7 @@
 
 	//cambiar la imagen de fondo de la seccion inscripciones
 	inscripciones.addEventListener("mouseenter", function () {
-		fondo.style.backgroundImage = "url('img/sedeuniversidad.jpg')";
+		fondo.style.backgroundImage = "url('img/fondo-inscripciones.jpg')";
 	})
 
 	inscripciones.addEventListener("mouseleave", function () {
@@ -86,7 +96,7 @@
 
 	//cambiar la imagen de fondo de la seccion directivos
 	directivos.addEventListener("mouseenter", function () {
-		fondo.style.backgroundImage = "url('img/sedeuniversidad.jpg')";
+		fondo.style.backgroundImage = "url('img/fondo-directivos.jpg')";
 	})
 
 	directivos.addEventListener("mouseleave", function () {
