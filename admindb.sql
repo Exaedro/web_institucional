@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 16-10-2024 a las 00:00:13
+-- Tiempo de generación: 16-10-2024 a las 00:09:13
 -- Versión del servidor: 10.4.24-MariaDB
 -- Versión de PHP: 8.1.6
 
@@ -50,7 +50,7 @@ CREATE TABLE `directivos` (
   `id_dir` int(11) NOT NULL,
   `img_url` varchar(33) NOT NULL,
   `nombre` varchar(33) NOT NULL,
-  `cargo` varchar(33) NOT NULL,
+  `cargo` varchar(70) NOT NULL,
   `descripcion` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
@@ -64,15 +64,15 @@ INSERT INTO `directivos` (`id_dir`, `img_url`, `nombre`, `cargo`, `descripcion`)
 (3, '', 'Mariana Bonetti', 'Vicedirectora', 'Esta es la información completa del directivo. Aqu'),
 (4, '', 'Karin Cuervo', 'Vicedirectora', 'Esta es la información completa del directivo. Aqu'),
 (5, '', 'Esteban Lemos', 'Jefe de Area', 'Esta es la información completa del directivo. Aqu'),
-(6, '', 'Alejandro Hsia', 'Jefe de Departamento Técnico Prof', 'Esta es la información completa del directivo. Aqu'),
-(7, '', 'Pablo Heredia', 'Jefe de Departamento de Educación', 'Esta es la información completa del directivo. Aqu'),
-(8, '', 'Nancy Dunjo', 'Jefa de Departamendo de Comunicac', 'Esta es la información completa del directivo. Aqu'),
-(9, '', 'Matias Gutierrez', 'Jefe de Departamento de Ciencias ', 'Esta es la información completa del directivo. Aqu'),
-(10, '', 'Diana Cozzani', 'Jefa de Departamento de Ciencias ', 'Esta es la información completa del directivo. Aqu'),
+(6, '', 'Alejandro Hsia', 'Jefe de Departamento Técnico Profesional', 'Esta es la información completa del directivo. Aqu'),
+(7, '', 'Pablo Heredia', 'Jefe de Departamento de Educación Física', 'Esta es la información completa del directivo. Aqu'),
+(8, '', 'Nancy Dunjo', 'Jefa de Departamendo de Comunicaciones', 'Esta es la información completa del directivo. Aqu'),
+(9, '', 'Matias Gutierrez', 'Jefe de Departamento de Ciencias Naturales y Exactas', 'Esta es la información completa del directivo. Aqu'),
+(10, '', 'Diana Cozzani', 'Jefa de Departamento de Ciencias Sociales\r\n', 'Esta es la información completa del directivo. Aqu'),
 (11, '', 'Victorello', 'Jefa de Preceptoria', 'Esta es la información completa del directivo. Aqu'),
 (12, '', 'Cristina Goméz', 'Secretaría', 'Esta es la información completa del directivo. Aqu'),
 (13, '', 'Alejandra Basack', 'Prosecretaria', 'Esta es la información completa del directivo. Aqu'),
-(14, '', 'Martín Lopez', 'Encargado en Jefe y apoyo Informa', 'Esta es la información completa del directivo. Aqu'),
+(14, '', 'Martín Lopez', 'Encargado en Jefe y apoyo Informatico\r\n', 'Esta es la información completa del directivo. Aqu'),
 (15, '', 'Alejandro Miguel San Martín', 'Padrino', 'Esta es la información completa del directivo. Aqu');
 
 -- --------------------------------------------------------

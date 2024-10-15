@@ -71,6 +71,7 @@ h2 {
 .directivo:hover .nombre {
     font-size: 2.4em; /* Agrandar más el nombre */
     transform: translateX(-120px); /* Mover más el nombre a la izquierda */
+    max-width: 100%;
 }
 
 .info-preview {
