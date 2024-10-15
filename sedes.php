@@ -20,7 +20,7 @@
                     <img src="img/tecnica1vl.webp" alt="Técnica 1 Vicente López">
                     <h2>Sede 1: Técnica 1 Vicente López</h2>
                     <p>Sede principal, ahí van todos los cursos a cursar, a excepción de 6°3 que alterna.</p>
-                    <p><i class="bx bxs-map"></i><a href="https://maps.app.goo.gl/HBeJV1LXDPM1Cvaa6">Cerrito 3966</a> </p>
+                    <p><i class="bx bxs-map"></i><a class="gmaps" href="https://maps.app.goo.gl/HBeJV1LXDPM1Cvaa6">Cerrito 3966</a> </p>
                     <p><i class="bx bxl-gmail"></i> cooperadoraet1@gmail.com</p>
                 </div>
                 <div class="sede">
@@ -29,14 +29,14 @@
                     <p>En esa sede solo transcurre 6°3 durante el turno tarde, pasado el turno los estudiantes
                         se desplazan hasta la técnica a cursar el turno restante.
                     </p>
-                    <p><i class="bx bxs-map"></i> <a href="https://maps.app.goo.gl/r7cD8PCW8qsLn7C59">Carlos Villate 4480</a></p>
+                    <p><i class="bx bxs-map"></i> <a class="gmaps" href="https://maps.app.goo.gl/r7cD8PCW8qsLn7C59">Carlos Villate 4480</a></p>
                     <p><i class="bx bxl-gmail"></i> centro.universitario@mvl.edu.ar</p>
                 </div>
                 <div class="sede">
                     <img src="img/polideportivo.webp" alt="Polideportivo">
                     <h2>Sede 3: Polideportivo</h2>
                     <p>Allí los estudiantes vienen a realizar educación física.</p>
-                    <p><i class="bx bxs-map"></i><a href="https://maps.app.goo.gl/5Bowze6TkYVKEy7r8"> Av. Bernardo Ader 4057</a></p>
+                    <p><i class="bx bxs-map"></i><a class="gmaps" href="https://maps.app.goo.gl/5Bowze6TkYVKEy7r8"> Av. Bernardo Ader 4057</a></p>
                     <p><i class="bx bxl-gmail"></i>  delegacion.adelina@vicentelopez.gov.ar </p>
                 </div>
             </div>
