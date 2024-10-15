@@ -80,8 +80,10 @@
                 
                 const nombre = this.querySelector('.nombre');
                 nombre.style.transform= 'translateX(0)';
-                nombre.style.zIndex='1';
                 
+                const directivo = this.querySelector('.directivo')
+                director.style.transform = 'scale(1)';
+
                 // Mostrar la previsualización cuando no esté en hover
                 this.querySelector('.info-preview').style.display = 'block';
 
