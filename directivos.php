@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/directivos.css" />
-    <link rel="stylesheet" href="css/style.css" />
     <title>Lista de directivos</title>
 </head>
 <body>
@@ -14,21 +13,18 @@
         <?php
             $conn = new mysqli("localhost", "root", "", "adminDB");
 
-
             if ($conn->connect_error) {
                 die("Conexión fallida: " . $conn->connect_error);
             }
-            
             
             $sql = "SELECT nombre, img_url, cargo, descripcion FROM directivos";
             $result = $conn->query($sql);
             
             if ($result->num_rows > 0) {
-               
                 while ($row = $result->fetch_assoc()) {
                     echo "<div class='directivo'>";
                     echo "<div class='directivo-header'>";
-                    echo "<div class='avatar'></div>";
+                    echo "<div class='avatar' style='background-image: url(" . htmlspecialchars($row['img_url']) . ");'></div>";
                     echo "<h2 class='nombre'>" . htmlspecialchars($row['nombre']) .  "</h2>";
                     echo "<h2 class='info-preview'>" . htmlspecialchars($row['cargo']) .  "</h2>";
                     echo "</div>"; 
@@ -40,9 +36,7 @@
             } else {
                 echo "<li>No hay datos disponibles.</li>";
             }
-            echo "</ul>";
-            echo "</div>";
-
+            
             $conn->close();
         ?>
     
@@ -53,16 +47,15 @@
             directivo.addEventListener('mouseover', function() {
                 // Mover el avatar más hacia arriba y asegurar que quede por fuera
                 const avatar = this.querySelector('.avatar');
-                avatar.style.transform = 'translateY(-80%)';
+                avatar.style.transform = 'translateY(-60%)';
                 avatar.style.zIndex = '2'; // Elevar para que el avatar quede por encima de la caja
 
-                // Mover el nombre hacia la izquierda para que quede a la misma altura de la foto en el eje X (Horizontal)
+                // Mover el nombre hacia la izquierda para que quede a la misma altura de la foto
                 const nombre = this.querySelector('.nombre');
-                nombre.style.transform= 'translateX(-100px)';
+                nombre.style.transform = 'translateX(-100px)';
 
-                //agrandar el directivo
-                const directivo = this.querySelector('.directivo')
-                director.style.transform = 'scale(1.4)';
+                // Agrandar el contenedor directivo
+                this.style.transform = 'scale(1.4)';
 
                 // Ocultar la previsualización
                 this.querySelector('.info-preview').style.display = 'none';
@@ -79,12 +72,12 @@
                 avatar.style.zIndex = '1'; // Restaurar el z-index
                 
                 const nombre = this.querySelector('.nombre');
-                nombre.style.transform= 'translateX(0)';
+                nombre.style.transform = 'translateX(0)';
                 
-                const directivo = this.querySelector('.directivo')
-                director.style.transform = 'scale(1)';
+                // Restaurar el tamaño original del contenedor directivo
+                this.style.transform = 'scale(1)';
 
-                // Mostrar la previsualización cuando no esté en hover
+                // Mostrar la previsualización nuevamente
                 this.querySelector('.info-preview').style.display = 'block';
 
                 // Restaurar la altura original de la caja
