@@ -8,16 +8,23 @@
     
     <div class="navbar-body">
         <div class="desac">
-        <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-bars" data-target="#menu_prin"></i>
         </div>
         <ul id="menu_prin">
             <li><a href="./index.php">Inicio</a></li>
             <li><a href="./sobre_nosotros.php">Acerca de nosotros</a></li>
-            <li><a href="#">Directivos</a></li>
-            <li><a href="#">Porque la técnica</a></li>
+            <li><a href="./directivos.php">Directivos</a></li>
+            <li><a href="./inscrip.php">Porque la técnica</a></li>
             <li><a href="#">Estudiantes</a></li>
-            <li><a href="#">Sedes</a></li>
+            <li><a href="./sedes.php">Sedes</a></li>
             <li><a href="./contacto.php">Contacto</a></li>
         </ul>
     </div>
 </nav>
+
+<script>
+    document.querySelector('.fa-bars').addEventListener('click', function() {
+        const menu = document.querySelector(this.dataset.target);
+        menu.classList.toggle('active');
+    });
+</script>
