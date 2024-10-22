@@ -61,11 +61,11 @@ body {
 }
 
 
-#sobre_nosotros #cont_img img {
+#sobre_nosotros #cont_img #img_prin {
     filter: brightness(20%);
-    width: 100%;
     border-radius: 5px;
-    height: 100%;
+    height: 70vh !important;
+    width: 60vw !important;
 }
 
 #sobre_nosotros #cont_text {
@@ -133,12 +133,12 @@ body {
     }
 
     #sobre_nosotros #cont_img {
-
+        width: 100vw !important;
         height: 55% !important;
     }
 
-    #sobre_nosotros #cont_img img {
-
+    #sobre_nosotros #cont_img #img_prin {
+        width: 100% !important;
         height: 60% !important;
     }
 
