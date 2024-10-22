@@ -208,7 +208,7 @@
     }
 
     .inicio .directivos {
-        background-color: rgba(var(--color-primario), 65%);
+        background-color: rgba(var(--color-secundario), 65%);
     }
 
     .inicio .secciones article {
