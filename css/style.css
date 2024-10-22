@@ -1,7 +1,6 @@
 @import url('globales.css');
 @import url('componentes/navbar.css');
 
-
 .wrapper-inicio {
     background-image: url('../img/tecnica.jpg');
     background-repeat: no-repeat;

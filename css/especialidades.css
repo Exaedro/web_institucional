@@ -12,6 +12,10 @@ body{
     box-sizing: border-box;
 }
 
+.wrapper-inicio {
+    height: 100vh;
+}
+
 /* Div bajo la barra superior */
 .info {
     width: 80%;
