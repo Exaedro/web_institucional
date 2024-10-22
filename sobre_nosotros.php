@@ -52,12 +52,12 @@
             "Código de Conducta"
         ];
         const img_srcs = [
-            "./img/historia.jpg", 
-            "./img/fundacion.jpg",
-            "./img/valores.jpg",  
-            "./img/actualidad.jpg", 
-            "./img/personal.jpg",   
-            "./img/codigo.jpg"     
+            "./img/nosotros/historia.webp", 
+            "./img/nosotros/fundacion.webp",
+            "./img/nosotros/valores.webp",  
+            "./img/nosotros/actualidad.webp", 
+            "./img/nosotros/personal.webp",   
+            "./img/nosotros/codigo.webp"     
         ];
         const items = document.querySelectorAll(".item");
         const text_dom = document.querySelector(".text");
@@ -67,8 +67,8 @@
         function elegir_text(index) {
             text_dom.textContent = text_img[index];
             tit_item.textContent = titulos_Imgs[index];
-            //img_prin.src = img_srcs[index];
-            img_prin.src = "./img/tecnica.jpg"
+            img_prin.src = img_srcs[index];
+          
         }
 
         // Agregar el evento click a cada item
