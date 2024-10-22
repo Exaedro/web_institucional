@@ -19,7 +19,7 @@
         <!-- Información de contacto -->
         <div class="contact-info">
             <h1>Contacto</h1>
-            <p><i class="fas fa-envelope"></i> nosesabe@gmail.com</p>
+            <p><i class="fas fa-envelope"></i> cooperadoraet1@gmail.com</p>
             <p><i class="fas fa-map-marker-alt"></i> Cerrito 3966, villa Adelina</p>
             <p><i class="fas fa-phone"></i> (011) 4735-0174</p>
 
