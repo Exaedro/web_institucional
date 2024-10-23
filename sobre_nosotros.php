@@ -21,7 +21,7 @@
             </div>
         </div>
         <div id="cont_text">
-            <h2>Quienes somos?</h2>
+            <h2 id="text_prin">Quienes somos?</h2>
             <ul id="cont_items">
                 <li class="item focus" data-index="0">Historia de la Escuela</li>
                 <li class="item" data-index="1">Fundación y Crecimiento</li>
