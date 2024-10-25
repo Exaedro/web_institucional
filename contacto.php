@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 
@@ -23,13 +22,18 @@
             <p><i class="fas fa-envelope"></i> cooperadoraet1@gmail.com</p>
             <p><i class="fas fa-map-marker-alt"></i> Cerrito 3966, villa Adelina</p>
             <p><i class="fas fa-phone"></i> (011) 4735-0174</p>
+            <br>
 
             <!-- Redes sociales -->
             <div class="social-icons">
-               <a class="social" href="https://www.facebook.com/tecnicauno.vicentelopez/?locale=es_LA" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                
-                <a href="https://www.instagram.com/tecnica_para_las_primaveras?utm_source=qr&igshid=OGU0MmVlOWVjOQ%3D%3D" target="_blank"><i class="fab fa-instagram"></i></a>
+               <a class="social" href="https://www.facebook.com/tecnicauno.vicentelopez/?locale=es_LA" target="_blank"><i class="fab fa-facebook-f">    Facebook</i></a> 
             </div>
+
+            <div class="social-icons">
+                <a href="https://www.instagram.com/tecnica_para_las_primaveras?utm_source=qr&igshid=OGU0MmVlOWVjOQ%3D%3D" target="_blank"><i class="fab fa-instagram">  Instagram</i></a>   
+            </div>
+
+           
         </div>
 
         <!-- Formulario de contacto -->
