@@ -220,7 +220,17 @@
         font-size: 2.5rem;
         padding-left: 30px;
     }
+
+}
+
+@media (660px <= width < 1035px) {
+    .inicio .celeste:nth-child(3) {
+        background-color: rgba(var(--color-secundario), 65%);
+    }
     
+    .inicio .negro:nth-child(4) {
+        background-color: rgba(var(--color-primario), 65%);
+    }
 }
 
 @media (max-width: 660px) {
