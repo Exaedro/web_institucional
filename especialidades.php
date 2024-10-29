@@ -32,54 +32,132 @@
                 </ul>
             </div>
 
-            <div id="Bloque" class="main-content">
-                <div id="objetivo-electronica" class="section-content">
-                    <h2>Objetivo de Electrónica</h2>
-                    <p>El objetivo de la carrera de electrónica es formar profesionales capaces de diseñar, analizar, y mantener sistemas electrónicos avanzados.</p>
-                    <div class="image-container">
-                        <img src="img.png" alt="Imagen de Electrónica">
-                    </div>
-                </div>
+            <div class="content text-electronica">
+    <div class="sidebar">
+        <ul>
+            <li><a href="#" class="section-link" data-section="info-electronica">Información Básica</a></li>
+            <li><a href="#" class="section-link" data-section="objetivo-electronica">Objetivo</a></li>
+            <li><a href="#" class="section-link" data-section="materias-electronica">Materias</a></li>
+            <li><a href="#" class="section-link" data-section="bimodalidad-electronica">Bimodalidad</a></li>
+            <li><a href="#" class="section-link" data-section="perfil-electronica">Perfil Académico</a></li>
+            <li><a href="#" class="section-link" data-section="curricular-electronica">Diseño Curricular</a></li>
+            <li><a href="#" class="section-link" data-section="proyectos-electronica">Proyectos de la Especialidad</a></li>
+        </ul>
+    </div>
 
-                <div id="materias-electronica" class="section-content hidden">
-                    <h2>Materias</h2>
-                    <p>Las materias incluyen circuitos eléctricos, electrónica digital, microcontroladores, y sistemas embebidos.</p>
-                    <div class="image-container">
-                        <img src="img.png" alt="Materias de Electrónica">
-                    </div>
-                </div>
+    <div id="Bloque" class="main-content">
+        <div id="objetivo-electronica" class="section-content">
+            <h2>Objetivo de Electrónica</h2>
+            <p>El objetivo de la carrera de electrónica es formar profesionales capaces de diseñar, analizar, y mantener sistemas electrónicos avanzados.</p>
+            <div class="image-container">
+                <img src="img.png" alt="Imagen de Electrónica">
+            </div>
+        </div>
 
-                <div id="bimodalidad-electronica" class="section-content hidden">
-                    <h2>Bimodalidad</h2>
-                    <p>La modalidad de estudios incluye clases presenciales y virtuales, con prácticas en laboratorios electrónicos.</p>
-                    <div class="image-container">
-                        <img src="img.png" alt="Bimodalidad Electrónica">
-                    </div>
+        <div id="materias-electronica" class="section-content hidden">
+            <h2>Materias</h2>
+            <div class="Materias">
+                <div>
+                    <h3>4to Año:</h3>
+                <ul>
+                    <li>Aplicaciones de electronica analogica</li>
+                    <li>Aplicaciones de electrónica digital</li>
+                    <li>Educación física</li>
+                    <li>Fundamentos de los modelos circuitales</li>
+                    <li>Física</li>
+                    <li>Geografía</li>
+                    <li>Historia</li>
+                    <li>Inglés</li>
+                    <li>Literatura</li>
+                    <li>Matemática</li>
+                    <li>Montaje de proyectos electrónicos</li>
+                    <li>Química</li>
+                    <li>Salud y adolescencia</li>
+                    <li>Tecnología electrónica</li>
+                </ul>
                 </div>
+                <div>
+                    <h3>5to Año:</h3>
+                    <ul>
+                        <li>Aplicaciones de electronica analogica</li>
+                        <li>Aplicaciones de electrónica digital</li>
+                        <li>Diseños asistidos y simulación electrónica</li>
+                        <li>Educación física</li>
+                        <li>Geografía</li>
+                        <li>Historia (Bimodal)</li>
+                        <li>Inglés</li>
+                        <li>Lenguajes electrónicos</li>
+                        <li>Literatura</li>
+                        <li>Matemática</li>
+                        <li>Montaje de proyectos electrónicos</li>
+                        <li>Análisis de los modelos circuitales</li>
+                        <li>Politica y ciudadania (Bimodal)</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>6to Año:</h3>
+                    <ul>
+                        <li>Aplicaciones de electronica analogica
+                        <li>Aplicaciones de electrónica digital
+                        <li>Arte (Bimodal)
+                        <li>Derecho del trabajo (Bimodal)
+                        <li>Educación física
+                        <li>Filosofía (Bimodal)
+                        <li>Inglés
+                        <li>Instalaciones industriales
+                        <li>Lenguajes electrónicos
+                        <li>Literatura (Bimodal)
+                        <li>Matemática aplicada
+                        <li>Montaje de proyectos electrónicos
+                        <li>Sistemas de Comunicaciones
+                        <li>Sistemas Productivos (Bimodal)</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>7mo Año:</h3>
+                    <ul>
+                        <li>Emprendimientos, productivos y desarrollo Local (Bimodal)</li>
+                        <li>Instalaciones industriales</li>
+                        <li>Proyecto y diseño electrónico</li>
+                        <li>Sistemas de Comunicaciones</li>
+                        <li>Sistemas de control</li>
+                        <li>Practicas Profesionalizantes</li>
+                        <li>Seguridad, Higiene y Protección ambiental (Bimodal)</li>
+                        <li>Electrónica aplicada.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
-                <div id="perfil-electronica" class="section-content hidden">
-                    <h2>Perfil Académico</h2>
-                    <p>El perfil académico de un ingeniero electrónico abarca conocimientos en diseño de hardware, programación de microcontroladores, y sistemas automatizados.</p>
-                    <div class="image-container">
-                        <img src="img.png" alt="Perfil Académico de Electrónica">
-                    </div>
-                </div>
+        <div id="bimodalidad-electronica" class="section-content hidden">
+            <h2>Bimodalidad</h2>
+            <p>La modalidad de estudios incluye clases presenciales y virtuales, con prácticas en laboratorios electrónicos.</p>
+            <div class="image-container">
+                <img src="img.png" alt="Bimodalidad Electrónica">
+            </div>
+        </div>
 
-                <div id="curricular-electronica" class="section-content hidden">
-                    <h2>Diseño Curricular</h2>
-                    <p>El diseño curricular se basa en competencias técnicas y prácticas en el campo de la electrónica.</p>
-                    <div class="image-container">
-                        <img src="img.png" alt="Diseño Curricular de Electrónica">
-                    </div>
-                </div>
+        <div id="perfil-electronica" class="section-content hidden">
+            <h2>Perfil Académico</h2>
+            <p>El perfil académico de un ingeniero electrónico abarca conocimientos en diseño de hardware, programación de microcontroladores, y sistemas automatizados.</p>
+            <div class="image-container">
+                <img src="img.png" alt="Perfil Académico de Electrónica">
+            </div>
+        </div>
 
-                <div id="proyectos-electronica" class="section-content hidden">
-                    <h2>Proyectos de la Especialidad</h2>
-                    <p>Los estudiantes desarrollan proyectos de sistemas embebidos y dispositivos electrónicos innovadores.</p>
-                    <div class="image-container">
-                        <img src="img.png" alt="Proyectos de Electrónica">
-                    </div>
-                </div>
+        <div id="curricular-electronica" class="section-content hidden">
+            <h2>Diseño Curricular</h2>
+            <p>El diseño curricular se basa en competencias técnicas y prácticas en el campo de la electrónica.</p>
+            <div class="image-container">
+                <img src="img.png" alt="Diseño Curricular de Electrónica">
+            </div>
+        </div>
+
+        <div id="proyectos-electronica" class="section-content hidden">
+            <h2>Proyectos de la Especialidad</h2>
+            <p>Los estudiantes desarrollan proyectos de sistemas embebidos y dispositivos electrónicos innovadores.</p>
+            <div class="image-container">
+                <img src="img.png" alt="Proyectos de Electrónica">
             </div>
         </div>
 
