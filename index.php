@@ -60,49 +60,46 @@
 	const campos = document.querySelector(".celeste#campos");
 	const directivos = document.querySelector(".directivos");
 
-	//cambiar la imagen de fondo de la seccion especialidades
+	// Cambiar la imagen de fondo de la sección especialidades
 	electronica.addEventListener("mouseenter", function () {
-		fondo.style.backgroundImage = "url('img/fondo-electronica.jpg')";
-	})
-	
+		fondo.style.background = "url('img/fondo-electronica.jpg') no-repeat center center/cover";
+	});
+
 	electronica.addEventListener("mouseleave", function () {
-		fondo.style.backgroundImage = "url('img/tecnica.jpg')";
-	})
-	
+		fondo.style.background = "url('img/tecnica.jpg') no-repeat center center/cover";
+	});
+
 	programacion.addEventListener("mouseenter", function () {
-		fondo.style.backgroundImage = "url('img/programacion.png')";
-	})
+		fondo.style.background = "url('img/programacion.png') no-repeat center center/cover";
+	});
 
 	programacion.addEventListener("mouseleave", function () {
-		fondo.style.backgroundImage = "url('img/tecnica.jpg')";
-	})
+		fondo.style.background = "url('img/tecnica.jpg') no-repeat center center/cover";
+	});
 
-	//cambiar la imagen de fondo de la seccion inscripciones
 	inscripciones.addEventListener("mouseenter", function () {
-		fondo.style.backgroundImage = "url('img/fondo-inscripciones.jpg')";
-	})
+		fondo.style.background = "url('img/fondo-inscripciones.jpg') no-repeat center center/cover";
+	});
 
 	inscripciones.addEventListener("mouseleave", function () {
-		fondo.style.backgroundImage = "url('img/tecnica.jpg')";
-	})
+		fondo.style.background = "url('img/tecnica.jpg') no-repeat center center/cover";
+	});
 
-	//cambiar la imagen de fondo de la seccion campos
 	campos.addEventListener("mouseenter", function () {
-		fondo.style.backgroundImage = "url('img/sedeuniversidad.jpg')";
-	})
+		fondo.style.background = "url('img/sedeuniversidad.jpg') no-repeat center center/cover";
+	});
 
 	campos.addEventListener("mouseleave", function () {
-		fondo.style.backgroundImage = "url('img/tecnica.jpg')";
-	})
+		fondo.style.background = "url('img/tecnica.jpg') no-repeat center center/cover";
+	});
 
-	//cambiar la imagen de fondo de la seccion directivos
 	directivos.addEventListener("mouseenter", function () {
-		fondo.style.backgroundImage = "url('img/fondo-directivos.jpg')";
-	})
+		fondo.style.background = "url('img/fondo-directivos.jpg') no-repeat center center/cover";
+	});
 
 	directivos.addEventListener("mouseleave", function () {
-		fondo.style.backgroundImage = "url('img/tecnica.jpg')";
-	})
+		fondo.style.background = "url('img/tecnica.jpg') no-repeat center center/cover";
+	});
 
 	</script>
 </html>
