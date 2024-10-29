@@ -159,6 +159,10 @@ body{
     margin-left: 20px;
 }
 
+.Bimodalidad ul li{
+    margin-bottom: 10px;
+}
+
 .celeste {
     background-color: rgba(var(--color-primario), 65%);
 }
