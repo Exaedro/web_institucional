@@ -2,8 +2,10 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background: url('background-image.jpg') no-repeat center center fixed;
+    background-image: url('../img/fondos/fondo2.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 	background-color: rgb(255, 255, 255);
 }
 
