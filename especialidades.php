@@ -134,10 +134,6 @@
 
                 <div id="perfil-electronica" class="section-content hidden">
                     <h2>Perfil Académico</h2>
-                    <p>El perfil académico de un ingeniero electrónico abarca conocimientos en diseño de hardware, programación de microcontroladores, y sistemas automatizados.</p>
-                    <div class="image-container">
-                        <img src="img.png" alt="Perfil Académico de Electrónica">
-                    </div>
                 </div>
 
                 <div id="curricular-electronica" class="section-content hidden">
@@ -295,7 +291,157 @@
 
                 <div id="perfil-programacion" class="section-content hidden">
                     <h2>Perfil Académico</h2>
-                    <p>El perfil académico de un programador abarca conocimientos en programación, resolución de problemas, y manejo de bases de datos.</p>
+                    <h3>El Técnico en Programación está capacitado para:</h3>
+                    <div class="Bimodalidad">
+                        <ul>
+                            <li>
+                                <p> Realizar programas o componentes de sistemas de computación.</p>
+                            </li>
+                            <li>
+                                <p>Interpretar especificaciones de diseño, documentar productos realizados, verificar los componentes programados, buscar causas de mal funcionamiento y corregir programas o adaptarlos a cambios en las especificaciones.</p>
+                            </li>
+                            <li>
+                                <p>Desarrollar sus actividades en equipo, organizado por proyectos y cumpliendo con criterios de realización establecidos en el perfil profesional.</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <h3>Habilidades:</h3>
+                    <div class="Bimodalidad">
+                        <ul>
+                            <li>
+                                <p>Interpretación de especificaciones: Comprende interpretar requisitos de asignaciones de programación.</p>
+                            </li>
+                            <li>
+                                <p>Planificación de trabajo: Organiza sus tareas en equipo y según la tecnología a utilizar.</p>
+                            </li>
+                            <li>
+                                <p>Producción de software: Desarrolla programas, módulos o componentes de sistemas de computación.</p>
+                            </li>
+                            <li>
+                                <p>Verificación y depuración: Verifica y depura el producto desarrollado.</p>
+                            </li>
+                            <li>
+                                <p>Revisiones cruzadas: Realiza revisiones de código o interfaces.</p>
+                            </li>
+                            <li>
+                                <p>Documentación técnica y de usuario: Documenta técnica y funcionalmente aplicaciones y sistemas.</p>
+                            </li>
+                            <li>
+                                <p>Explotación de recursos: Aprovecha funcionalidades de sistemas de información, hardware, software y redes.</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <h3>Competencias Específicas:</h3>
+                    <div class="Bimodalidad">
+                        <ul>
+                            <li>
+                                <p>Abstracción: Se enfoca en reducir detalles irrelevantes, simplificando problemas complejos para facilitar su comprensión y solución.</p>
+                            </li>
+                            <li>
+                                <p>Pensamiento combinatorio: Considera alternativas sistemáticamente, manejando múltiples variables sin perder el enfoque general de resolución.</p>
+                            </li>
+                            <li>
+                                <p>Autorregulación: Se maneja bajo normas explícitas o implícitas, manteniendo un orden propio que facilita el acceso a la información necesaria.</p>
+                            </li>
+                            <li>
+                                <p>Comunicación adecuada: Reconoce el aporte de los demás y transmite información en lenguaje técnico, incluso en inglés.</p>
+                            </li>
+                            <li>
+                                <p>Trabajo en equipo: Comparte información y conocimientos, considera las necesidades de los usuarios y está dispuesto a colaborar y recibir ayuda.</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <h3>Funciones y Tareas Específicas:</h3>
+                    <div class="Bimodalidad">
+                        <ol>
+                            <li>
+                                <h4>Interpretación de especificaciones de diseño</h4>
+                                <ul>
+                                    <li>
+                                        <p>Analizar el problema a resolver y su alcance.</p>
+                                    </li>
+                                    <li>
+                                        <p>Validar coherencia e integridad de especificaciones.</p>
+                                    </li>
+                                    <li>
+                                        <p>Convalidar interpretaciones con quienes hayan diseñado o provisto especificaciones.</p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h4>Planificación y estrategia de trabajo</h4>
+                                <ul>
+                                    <li>
+                                        <p>Identificar aspectos críticos, dividir en subtareas, y establecer una secuencia de trabajo.</p>
+                                    </li>
+                                    <li>
+                                        <p>Estimar tiempos, establecer prioridades y consultar aspectos ambiguos.</p>
+                                    </li>
+                                    <li>
+                                        <p>Buscar información en fuentes confiables y aplicar metodologías de resolución de problemas.</p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h4>Producción de programas y componentes</h4>
+                                <ul>
+                                    <li>
+                                        <p>Desarrollar algoritmos para resolver problemas asignados.</p>
+                                    </li>
+                                    <li>
+                                        <p>Definir código, estructuras de datos, clases y objetos necesarios.</p>
+                                    </li>
+                                    <li>
+                                        <p>Diseñar interfaces de usuario acordes al contexto.</p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h4>Verificación y depuración del producto</h4>
+                                <ul>
+                                    <li>
+                                        <p>Analizar y registrar todos los procesos importantes.</p>
+                                    </li>
+                                    <li>
+                                        <p>Procesar y registrar resultados, depurando códigos según sea necesario.</p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h4>Revisiones cruzadas de código</h4>
+                                <ul>
+                                    <li>
+                                        <p>Asegurar el cumplimiento de estándares y especificaciones.</p>
+                                    </li>
+                                    <li>
+                                        <p>Revisar interfaces y evaluar el uso eficiente de recursos.</p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h4>Documentación técnica y de usuario</h4>
+                                <ul>
+                                    <li>
+                                        <p>Describir nuevas clases, registrar decisiones de diseño y resultados de pruebas.</p>
+                                    </li>
+                                    <li>
+                                        <p>Documentar incidentes, errores y versiones del producto.</p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h4>Desempeño de base</h4>
+                                <ul>
+                                    <li>
+                                        <p>Conocer y usar recursos de hardware, software y redes para mantener ambientes de desarrollo y verificación.</p>
+                                    </li>
+                                    <li>
+                                        <p>Gestionar repositorios de información y asegurar la confiabilidad de los productos generados.</p>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ol>
+                    </div>
                 </div>
 
                 <div id="curricular-programacion" class="section-content hidden">
