@@ -31,7 +31,7 @@
 
         function textQue() {
             title.innerHTML = "¿Que hay que traer?"    
-            info.innerHTML = "Lo que hay que traer son las fotocopias que se encuentran en el kiosco del colegio, en estas completaras la informacion y entregaras estos papeles al colegio." 
+            info.innerHTML = "Documentación necesaria para matricular: Constancia de 6to grado aprobado (que diga sin adeudar materias) o que cursa actualmente; Fotocopia de partida de nacimiento; Fotocopia de las vacunas aplicadas al alumno; Original y fotocopias del D.N.I. del alumno; Original y fotocopias del D.N.I. de cada uno de los padres; Fotocopias del D.N.I. de personas autorizadas a retirar al alumno; 2 fotos 4x4 Solicitud de inscripción con información de salud; Autorización de uso de imagen y personas autorizadas a retirar. Todo completo por la familia, 1 folio, 1 Legajo. Se compra en la escuela, lo vende cooperadora en la fecha de inscripción; Entrevista a familia y estudiante; La planilla de inscripción, los formularios oficiales y el folio se venden en el quiosco de la escuela." 
             porque.classList.remove("active")   
             que.classList.add("active") 
             cuando.classList.remove("active") 
