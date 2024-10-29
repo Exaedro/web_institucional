@@ -62,7 +62,7 @@
             <div class="content">
                 <h1 id="title">¿POR QUE INSCRiBIRSE EN LA TÉCNICA?</h1>
                 <p id="info">¿Te gusta resolver problemas y crear soluciones innovadoras? En nuestra escuela, contamos con los recursos necesarios para que puedas expresar tu creatividad. Tendrás acceso a computadoras, netbooks y herramientas de trabajo. Desde el primer día, estarás trabajando en proyectos, desde la creación de un horno solar, un semáforo con leds y de forma más avanzada la producción de circuitos electrónicos simples hasta aplicaciones web complejas. Esta experiencia te permitirá desarrollar habilidades clave como el pensamiento crítico, la resolución de problemas y el trabajo en equipo, preparándote para los desafíos del mundo profesional.</p>
-                <img id="insc-image" src="img/insc.jpg" alt="Inscripciones" style="display: none;"> <!-- Imagen añadida -->
+                <img id="insc-image" src="img/insc.png" alt="Inscripciones" style="display: none;"> <!-- Imagen añadida -->
             </div>
         </div>
     </main>
