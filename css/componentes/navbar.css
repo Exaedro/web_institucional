@@ -100,7 +100,7 @@ a {
     position: relative;
 }
 
-a:after {
+.navbar-body a:after {
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
     content: "";
@@ -113,7 +113,7 @@ a:after {
     width: 0;
 }
 
-a:hover:after {
+.navbar-body a:hover:after {
     width: 100%;
     left: 0;
 }

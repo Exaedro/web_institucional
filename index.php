@@ -23,25 +23,25 @@
 				<article class="especialidades">
 					<p>Especialidades</p>
 					<div class="botones">
-						<a href="#">Electronica</a>
-						<a href="#">Programación</a>
+						<a href="especialidades.php">Electronica</a>
+						<a href="especialidades.php">Programación</a>
 					</div>
 				</article>
 
 				<article class="celeste" id="inscripciones">
-					<a href="#">
+					<a href="contacto.php">
 						<p>Inscripciones</p>
 					</a>
 				</article>
 
 				<article class="celeste" id="campos">
-					<a href="#">
-						<p>Campos</p>
+					<a href="sedes.php">
+						<p>Sedes</p>
 					</a>
 				</article>
 
 				<article class="directivos negro">
-					<a href="#">
+					<a href="directivos.php">
 						<p>Directivos</p>
 					</a>
 				</article>
@@ -59,46 +59,33 @@
 	const inscripciones = document.querySelector(".celeste#inscripciones");
 	const campos = document.querySelector(".celeste#campos");
 	const directivos = document.querySelector(".directivos");
+	const secciones = document.querySelector(".secciones")
 
 	// Cambiar la imagen de fondo de la sección especialidades
 	electronica.addEventListener("mouseenter", function () {
 		fondo.style.background = "url('img/fondo-electronica.jpg') no-repeat center center/cover";
 	});
 
-	electronica.addEventListener("mouseleave", function () {
-		fondo.style.background = "url('img/tecnica.jpg') no-repeat center center/cover";
-	});
-
 	programacion.addEventListener("mouseenter", function () {
 		fondo.style.background = "url('img/programacion.png') no-repeat center center/cover";
-	});
-
-	programacion.addEventListener("mouseleave", function () {
-		fondo.style.background = "url('img/tecnica.jpg') no-repeat center center/cover";
 	});
 
 	inscripciones.addEventListener("mouseenter", function () {
 		fondo.style.background = "url('img/fondo-inscripciones.jpg') no-repeat center center/cover";
 	});
 
-	inscripciones.addEventListener("mouseleave", function () {
-		fondo.style.background = "url('img/tecnica.jpg') no-repeat center center/cover";
-	});
-
 	campos.addEventListener("mouseenter", function () {
 		fondo.style.background = "url('img/sedeuniversidad.jpg') no-repeat center center/cover";
 	});
-
-	campos.addEventListener("mouseleave", function () {
-		fondo.style.background = "url('img/tecnica.jpg') no-repeat center center/cover";
-	});
-
+	
 	directivos.addEventListener("mouseenter", function () {
 		fondo.style.background = "url('img/fondo-directivos.jpg') no-repeat center center/cover";
 	});
-
-	directivos.addEventListener("mouseleave", function () {
-		fondo.style.background = "url('img/tecnica.jpg') no-repeat center center/cover";
+	
+	secciones.addEventListener("mouseleave", function () {
+		fondo.style.background = "url('img/fondos/fondo5.jpg') no-repeat";
+		fondo.style.backgroundSize = "cover"
+		fondo.style.backgroundPosition = 'top'
 	});
 
 	</script>
