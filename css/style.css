@@ -1,6 +1,40 @@
 @import url('globales.css');
 @import url('componentes/navbar.css');
 
+body {
+    overflow-y: scroll !important;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    /* Ancho del scrollbar */
+}
+
+/* Estilo de la pista del scrollbar */
+::-webkit-scrollbar-track {
+    background: #f0f0f0;
+    /* Color claro de la pista */
+    border-radius: 10px;
+    /* Bordes redondeados */
+}
+
+/* Estilo del thumb (la parte que se mueve) */
+::-webkit-scrollbar-thumb {
+    background-color: #cccccc;
+    /* Color claro del thumb */
+    border-radius: 10px;
+    /* Bordes redondeados */
+    border: 3px solid #f0f0f0;
+    /* Borde para darle más espacio y apariencia suave */
+}
+
+/* Hover en el thumb */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #b0b0b0;
+    /* Color más oscuro al pasar el mouse */
+}
+
 .wrapper-inicio {
     background-image: url('../img/tecnica.jpg');
     background-repeat: no-repeat;
@@ -176,7 +210,8 @@
     LINEAS DE LOS TEXTOS EN LOS CUADRADOS 
 */
 
-.inicio .secciones .especialidades p::before, .inicio .secciones .directivos p::before  {
+.inicio .secciones .especialidades p::before,
+.inicio .secciones .directivos p::before {
     content: '';
     width: 50%;
     height: 2px;
@@ -186,7 +221,8 @@
     transition: all 0.5s ease;
 }
 
-.inicio .secciones .especialidades p::after, .inicio .secciones .directivos p::after  {
+.inicio .secciones .especialidades p::after,
+.inicio .secciones .directivos p::after {
     content: '';
     width: 50%;
     height: 2px;
@@ -215,11 +251,12 @@
         font-size: 36px;
     }
 
-    .inicio .lateral h2, .inicio .lateral h2::before {
+    .inicio .lateral h2,
+    .inicio .lateral h2::before {
         font-size: 2.5rem;
         padding-left: 30px;
     }
-    
+
 }
 
 @media (max-width: 660px) {
@@ -227,7 +264,7 @@
         display: flex;
         flex-direction: column;
     }
-    
+
     .inicio .secciones article {
         font-size: 28px;
     }
@@ -249,7 +286,8 @@
         margin: 0;
     }
 
-    .inicio .lateral h2, .inicio .lateral h2::before {
+    .inicio .lateral h2,
+    .inicio .lateral h2::before {
         padding: 0;
     }
 }
@@ -259,7 +297,141 @@
         font-size: 20px;
     }
 
-    .inicio .lateral h2, .inicio .lateral h2::before {
+    .inicio .lateral h2,
+    .inicio .lateral h2::before {
         font-size: 1.6rem;
+    }
+}
+
+/* estilo de sobre nosotros */
+#sobre_nosotros {
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    padding: 5% 0px;
+    background-color: #ffffff;
+
+}
+
+/* Estilo para el contenedor */
+#sobre_nosotros .container {
+    position: relative;
+    left: 20%;
+    background-color: rgba(var(--color-primario), 65%);
+    padding: 100px 200px;
+    text-align: left;
+    height: 38vh;
+    width: 100%;
+    margin-bottom: 5%;
+
+}
+
+
+
+
+#sobre_nosotros .container h1 {
+    font-size: 6vw;
+    font-weight: 900;
+    color: transparent;
+    -webkit-text-stroke: 1px #1d1d1d;
+    margin: 0;
+    display: inline;
+    position: absolute;
+    left: -5%;
+    top: 25%;
+    width: 90% !important;
+}
+
+#sobre_nosotros .container p {
+    width: 90% !important;
+    font-size: 3vw;
+    font-weight: 500;
+    font-weight: bold;
+    color: #111111;
+    margin-top: 20px;
+    position: absolute;
+    top: 75%;
+    left: 0%;
+
+}
+
+.img-visible p {
+    transition: all .5s ease-in-out;
+    left: -5% !important;
+}
+
+.img-visible h1 {
+    left: 2% !important;
+    transition: all .5s ease-in-out;
+}
+
+#sobre_nosotros .cont_text {
+
+    min-height: 60vh;
+    height: auto;
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    background-color: transparent;
+}
+
+#sobre_nosotros .cont_text .img-visible {
+    transition: transform 0.5s ease-in-out;
+    transform: translateY(-20px) !important;
+}
+
+#sobre_nosotros .reverse {
+    flex-direction: row-reverse;
+}
+
+#sobre_nosotros .cont_text .img {
+
+    height: 50vh;
+    width: 50%;
+    border-radius: 20px;
+    transform: translateY(0px);
+}
+
+#sobre_nosotros .cont_text .text {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 60px;
+    color: #000;
+}
+
+#sobre_nosotros .cont_text .text h2 {
+    font-size: 1.8em;
+    position: relative;
+}
+
+#sobre_nosotros .cont_text .text h2::after {
+    position: absolute;
+    content: '';
+    width: 50%;
+    left: 0;
+    height: 4px;
+    background-color: rgba(30, 68, 236, 0.925);
+    transition: all .2s ease-in-out;
+    bottom: -10%;
+}
+@media (max-width: 1450px) {
+    #sobre_nosotros .cont_text{
+        width: 80%;
+    }
+}
+@media (max-width: 1100px) {
+    #sobre_nosotros .cont_text{
+ 
     }
 }

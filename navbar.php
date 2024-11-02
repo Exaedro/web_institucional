@@ -12,7 +12,6 @@
         </div>
         <ul id="menu_prin">
             <li><a href="./index.php">Inicio</a></li>
-            <li><a href="./sobre_nosotros.php">Acerca de nosotros</a></li>
             <li><a href="./directivos.php">Directivos</a></li>
             <li><a href="./inscrip.php">Porque la técnica</a></li>
             <li><a href="./sedes.php">Sedes</a></li>
