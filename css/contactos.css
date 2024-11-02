@@ -2,8 +2,10 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background: url('background-image.jpg') no-repeat center center fixed;
+    background-image: url('../img/fondos/fondo2.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 	background-color: rgb(255, 255, 255);
 }
 
@@ -17,7 +19,6 @@ body {
 
 .contact-box {
     background: rgba(255, 255, 255, 0.9);
-    border-radius: 15px;
     padding: 40px;
     display: flex;
     justify-content: space-between;
@@ -57,7 +58,7 @@ body {
 }
 
 .social-icons i {
-    font-size: 29px;
+    font-size: 23px;
     color: #2A4563;
     margin-right: 20px;
     cursor: pointer;
@@ -65,7 +66,7 @@ body {
 }
 
 .social-icons i:hover {
-    transform: scale(1.2);
+    transform: scale(1.04);
 }
 
 .contact-form {
@@ -88,7 +89,7 @@ body {
     margin-bottom: 20px;
     padding: 12px;
     border: 1px solid #a5a4a4;
-    border-radius: 10px;
+    
     font-size: 16px;
     width: 100%;
     box-sizing: border-box;
@@ -99,7 +100,7 @@ body {
     background-color: #2A4563;
     color: white;
     border: none;
-    border-radius: 10px;
+    
     cursor: pointer;
     font-size: 16px;
     transition: background-color 0.3s ease;
@@ -128,7 +129,7 @@ body {
     margin: 0 auto;
     background: rgba(255, 255, 255, 0.9);
     padding: 20px;
-    border-radius: 10px;
+   
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
 }
 

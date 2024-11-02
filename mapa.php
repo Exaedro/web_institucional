@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/mapa.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mapa.css?v=1.0" />
 	<title>Escuela de Educación Secundaria Nro1 - Mapa</title>
 </head>
 <body>
@@ -22,24 +21,26 @@
         </div>
     </div>
     <script>
-        const plantas = document.querySelectorAll('.planta');
-        plantas.forEach(planta => {
-            planta.addEventListener('mouseenter', () => {
-                planta.classList.add('active');
-                plantas.forEach(otherPlanta => {
-                    if (otherPlanta !== planta) {
-                        otherPlanta.classList.add('inactive');
-                    }
-                });
-            });
-
-            planta.addEventListener('mouseleave', () => {
-                planta.classList.remove('active');
-                plantas.forEach(otherPlanta => {
-                    otherPlanta.classList.remove('inactive');
-                });
+    const plantas = document.querySelectorAll('.planta');
+    plantas.forEach(planta => {
+        planta.addEventListener('mouseenter', () => {
+            planta.classList.toggle('active');
+            plantas.forEach(otherPlanta => {
+                if (otherPlanta !== planta) {
+                    otherPlanta.classList.toggle('inactive');
+                }
             });
         });
+
+        planta.addEventListener('mouseleave', () => {
+            planta.classList.toggle('active');
+            plantas.forEach(otherPlanta => {
+                if (otherPlanta !== planta) {
+                    otherPlanta.classList.toggle('inactive');
+                }
+            });
+        });
+    });
 
     </script>
 </body>

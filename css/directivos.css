@@ -1,21 +1,24 @@
-@import url('globales.css');
 @import url('componentes/navbar.css');
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-image: url("../img/fondo-directivos.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     margin: 0;
 }
 
 .container {
-    width: 800px;
+    width: 90%;
+    max-width: 800px;
     margin: 0 auto;
     text-align: center;
 }
 
 h2 {
-    margin-bottom: 20px;
-    color: #333;
+    margin: 20px;
+    color: #c9c9c9;
 }
 
 .directivo {
@@ -30,85 +33,120 @@ h2 {
     overflow: hidden;
     transition: transform 0.4s ease, height 0.4s ease;
     height: 120px; 
+    width: 100%;
     max-width: 100%;
+    box-sizing: border-box;
 }
 
 .directivo:hover {
-    height: auto; /* Permitir que crezca dinámicamente */
-    padding: 20px;
-    margin: 50px;
+    transform: scale(1.05);
+    height: auto;
+    padding: 40px;
+    margin: 30px 0;
 }
 
 .directivo-header {
     display: flex;
     align-items: center;
     flex-grow: 1;
-    justify-content: flex-start; /* Alinear elementos hacia la izquierda */
+    justify-content: flex-start;
     position: relative;
 }
 
 .avatar {
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     background-color: black;
     border-radius: 25%;
-    margin-right: 30px;
+    margin-right: 20px;
     transition: transform 0.2s ease;
 }
 
 .directivo:hover .avatar {
-    margin-bottom: 20px;
+    width: 65px;
+    height: 65px;
+    transform: translateY(-120%);
+    z-index: 2;
 }
 
 .nombre {
     color: white;
     font-weight: bold;
-    font-size: 1.8em;
-    transition: font-size 0.2s ease, transform 0.2s ease;
-    margin: 0 40px 0 0;
+    font-size: 1.6em;
+    margin: 0 20px 0 0;
+    max-width: 100%;
 }
 
 .directivo:hover .nombre {
-    font-size: 2.4em; /* Agrandar más el nombre */
-    max-width: 100%;
+    font-size: 2em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transform: translateX(-20px);
 }
 
 .info-preview {
     color: white;
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin-left: auto;
     margin-right: 20px;
     background-color: #2c3e50;
     padding: 10px;
     border-radius: 10px;
-    transition: opacity 0.2s ease; /* Cambiar la transición de la previsualización */
+    transition: opacity 0.2s ease;
 }
 
 .directivo:hover .info-preview {
-    opacity: 0; /* Hacer más rápido el desvanecimiento de la previsualización */
+    opacity: 0;
 }
 
 .informacion {
     background-color: #2c3e50;
     color: white;
-    font-size: 1.4em;
-    padding: 20px;
+    font-size: 1.2em;
+    padding: 15px;
     position: absolute;
     top: 65%;
-    bottom: 0;
     left: 0;
     right: 0;
-    transform: translateY(100%); /* Ocultar fuera de la vista */
-    transition: transform 0.2s ease-in-out;
-    opacity: 0; /* Hacerla invisible inicialmente */
-    visibility: none; /* Asegurarse de que no ocupe espacio */
+    transform: translateY(100%);
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
 }
 
 .directivo:hover .informacion {
-    transform: translateY(0); /* Moverla dentro de la vista */
-    opacity: 1; /* Hacerla visible */
-    visibility: visible; /* Ahora sí ocupa espacio */
-    padding-top: 20px;
-    transition: transform 0.2s, opacity 0.2s ease-in-out;
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+}
+
+@media (max-width: 600px) {
+    .directivo {
+        flex-direction: column;
+        padding: 20px;
+        align-items: flex-start; /* Alinea los elementos al inicio */
+    }
+
+    .avatar {
+        width: 60px;
+        height: 60px;
+        margin: 0 auto 10px; /* Centra el avatar arriba del nombre */
+    }
+
+    .nombre {
+        font-size: 1.2em;
+        margin-left: 20px; /* Añade margen izquierdo para separar el nombre del avatar */
+        text-align: left;  /* Alinea el nombre a la izquierda */
+        max-width: calc(100% - 80px); /* Limita el ancho para evitar que cubra el avatar */
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+    .info-preview, .informacion {
+        font-size: 1em;
+        text-align: center;
+        max-width: 100%;
+    }
 }

@@ -22,25 +22,25 @@
 				<article class="especialidades">
 					<p>Especialidades</p>
 					<div class="botones">
-						<a href="#">Electronica</a>
-						<a href="#">Programación</a>
+						<a href="especialidades.php">Electronica</a>
+						<a href="especialidades.php">Programación</a>
 					</div>
 				</article>
 
 				<article class="celeste" id="inscripciones">
-					<a href="#">
+					<a href="contacto.php">
 						<p>Inscripciones</p>
 					</a>
 				</article>
 
 				<article class="celeste" id="campos">
-					<a href="#">
-						<p>Campos</p>
+					<a href="sedes.php">
+						<p>Sedes</p>
 					</a>
 				</article>
 
 				<article class="directivos negro">
-					<a href="#">
+					<a href="directivos.php">
 						<p>Directivos</p>
 					</a>
 				</article>
@@ -110,6 +110,7 @@
 	const inscripciones = document.querySelector(".celeste#inscripciones");
 	const campos = document.querySelector(".celeste#campos");
 	const directivos = document.querySelector(".directivos");
+	const secciones = document.querySelector(".secciones")
 
 	//cambiar la imagen de fondo de la seccion especialidades
 	electronica.addEventListener("mouseenter", function() {
