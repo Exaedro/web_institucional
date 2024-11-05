@@ -59,7 +59,9 @@
 					<img src="./img/nosotros/historia.webp" alt="" class="img">
 					<div class="text">
 						<h2>Historia de la Escuela</h2>
-						<p>El edificio se construyó sobre los terrenos donados por la Sra. Elisa Schulze de Ader y Ana Elisa Ader de Grümbaum, esposa e hija de don Bernardo Ader, ya fallecido, y que fueron aceptados por la Municipalidad mediante la Ordenanza N°644 del año 1934.</p>
+						<p>
+						El edificio fue construido sobre terrenos donados generosamente por la señora Elisa Schulze de Ader y su hija, Ana Elisa Ader de Grümbaum, esposa e hija de don Bernardo Ader, quien ya había fallecido para entonces. Esta donación fue aceptada oficialmente por la Municipalidad mediante la Ordenanza N°644 en el año 1934. </p>
+						<p>Gracias a este gesto, la comunidad pudo contar con el espacio necesario para desarrollar un proyecto que beneficiaría a los habitantes de la zona, consolidando un legado de compromiso y contribución social que continuaría durante los años siguientes.</p>
 
 					</div>
 
@@ -67,35 +69,42 @@
 				<div class="cont_text ">
 					<div class="text">
 						<h2>Fundación y Crecimiento</h2>
-						<p>La idea de la construcción de una escuela industrial surgió del integrante del Club de Leones, Ceferino Fernández, al comprobar la necesidad de un establecimiento de este tipo en la zona de Villa Adelina. Así, a fines del año 1983, el Club de Leones de Villa Adelina hizo entrega de la escuela a las autoridades Municipales. La escuela abrió sus puertas el 16 de abril de 1984 en un predio de 800 m², con un total de 72 alumnos.</p>
+						<p>La idea de construir una escuela industrial en Villa Adelina surgió de Ceferino Fernández, miembro del Club de Leones, al notar la necesidad de un establecimiento de educación técnica en la zona. Con el apoyo del Club de Leones, el proyecto tomó forma, y en 1983 la escuela fue entregada a las autoridades municipales.</p>
+						<p>El 16 de abril de 1984, la escuela industrial de Villa Adelina abrió sus puertas en un predio de 800 m², recibiendo a sus primeros 72 estudiantes. Desde entonces, se ha convertido en un referente de educación técnica y una oportunidad de formación para los jóvenes.</p>
 					</div>
 					<img src="./img/nosotros/fundacion.webp" alt="" class="img">
 				</div>
 				<div class="cont_text reverse">
 					<div class="text">
 						<h2>Valores de la escuela</h2>
-						<p>La escuela de Educación Técnica N°1 "Eduardo Ader" sostiene como ideario la formación en valores, el crecimiento como ciudadanos y, a partir de esa base, acompañar a los alumnos para que logren construir un proyecto de vida personal y profesional.</p>
+						<p>La Escuela de Educación Técnica N°1 "Eduardo Ader" se enfoca en la formación integral de sus estudiantes, promoviendo valores como la responsabilidad, el respeto y la solidaridad.</p>
+						<p>Ofrece una educación técnica de calidad que no solo imparte conocimientos específicos, sino que también apoya a los alumnos en la construcción de un proyecto de vida personal y profesional. Su objetivo es formar egresados con habilidades técnicas, preparados para enfrentar los desafíos del mundo moderno y contribuir positivamente a la comunidad.</p>
 					</div>
 					<img src="./img/nosotros/valores.webp" alt="" class="img">
 				</div>
 				<div class="cont_text">
 					<div class="text">
 						<h2>Actualidad</h2>
-						<p>Con el correr de los años, la escuela fue creciendo y, en la actualidad, la matrícula es aproximadamente de 700 alumnos que cursan en turno mañana, tarde y noche, distribuidos en catorce divisiones de ciclo básico y once divisiones de ciclo superior secundario. La escuela cuenta, hoy en día, con 20 aulas, de las cuales 9 son para realizar los talleres y las materias de laboratorio.</p>
+						<p>
+						La Escuela de Educación Técnica N°1 "Eduardo Ader" ha crecido significativamente a lo largo de los años, alcanzando una matrícula de aproximadamente 750 alumnos distribuidos en turnos de mañana, tarde y noche. Actualmente, cuenta con catorce divisiones de ciclo básico y once de ciclo superior secundario.</p>
+						<p>La institución dispone de 20 aulas en total, de las cuales 9 son para realizar los talleres y las materias de laboratorio.</p>
+
 					</div>
 					<img src="./img/nosotros/actualidad.webp" alt="" class="img">
 				</div>
 				<div class="cont_text reverse">
 					<div class="text">
 						<h2>Personal y Cooperadora</h2>
-						<p>La Asociación Cooperadora, que funciona desde la fundación de la escuela, ha sido de gran ayuda para el mantenimiento edilicio y la provisión de todos los insumos necesarios. El director de la escuela es el Prof. Ezequiel Torres y los vicedirectores son Lic. Prof. Mariana Bonetti, Lic. Prof. Karin Cuervo y Prof. Daniel Segnini.</p>
+						<p>La Asociación Cooperadora, presente desde los inicios de la escuela, ha desempeñado un rol esencial en el desarrollo y sostenimiento de la institución. Gracias a su apoyo constante, el edificio se ha mantenido en buen estado, la escuela cuenta con los insumos, materiales necesarios para el trabajo diario en las aulas y talleres.</p>
+						<p>El director de la escuela es el Prof. Ezequiel Torres y los vicedirectores son Lic. Prof. Mariana Bonetti, Lic. Prof. Karin Cuervo y Prof. Daniel Segnini.</p>
 					</div>
 					<img src="./img/nosotros/personal.webp" alt="" class="img">
 				</div>
 				<div class="cont_text">
 					<div class="text">
 						<h2>Código de Conducta</h2>
-						<p>El Código de Conducta de la escuela define las normas y expectativas para los estudiantes en cuanto al comportamiento, respeto y cumplimiento de las reglas dentro y fuera del establecimiento.</p>
+						<p>El Código de Conducta de la escuela, es una guía en el desarrollo de los estudiantes, establece las normas y expectativas claras para el comportamiento, el respeto y el cumplimiento de las reglas tanto dentro como fuera del recinto escolar.</p>
+						<p>	Elaborado con el objetivo de fomentar un ambiente de aprendizaje seguro y respetuoso, busca promover valores como la responsabilidad, la empatía y la tolerancia entre todos los miembros de la comunidad educativa. La escuela busca crear un entorno en el que cada estudiante pueda desarrollar sus habilidades, en el que cada miembro de la comunidad pueda sentirse seguro y valorado.</p>
 					</div>
 					<img src="./img/nosotros/codigo.webp" alt="" class="img">
 				</div>
