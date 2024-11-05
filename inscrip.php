@@ -33,13 +33,12 @@
             const queTraer = document.querySelector('.quetraer');
             title.innerHTML = "¿Que hay que traer?"
             info.innerHTML = `
-              <li>Constancia de 6to grado aprobado (que diga sin adeudar materias)</li>
-              <li>Fotocopia de partida de nacimiento y de las vacunas aplicadas al alumno;;</li>
-              <li>Original y fotocopias del D.N.I. del alumno;</li>
-              <li>Original y fotocopias del D.N.I. de cada uno de los padres;</li>
-              <li>Fotocopias del D.N.I. de personas autorizadas a retirar al alumno;</li>
-              <li>2 fotos 4x4</li>
-              <li>Solicitud de inscripción con información de salud y Autorización de uso de imagen y personas autorizadas a retirar.;</li>
+              <li>Constancia de 6to grado aprobado (que diga sin adeudar materias).</li>
+              <li>Fotocopia de partida de nacimiento y de las vacunas aplicadas al alumno.</li>
+              <li>Original y fotocopias del D.N.I. del alumno y de cada uno de los padres.</li>
+              <li>Fotocopias del D.N.I. de personas autorizadas a retirar al alumno.</li>
+              <li>2 fotos 4x4.</li>
+              <li>Solicitud de inscripción con información de salud y Autorización de uso de imagen y personas autorizadas a retirar.</li>
               <li>1 Legajo. Se compra en la escuela, lo vende cooperadora en la fecha de inscripción.</li>
               Consultas solo por mail: inscripcion@tecnica1vl.org
             `;
