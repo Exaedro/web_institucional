@@ -4,7 +4,7 @@ html, body {
     display: flex;
     flex-direction: column; /* Organiza el contenido verticalmente */
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-image: url("../img/fondosedes.webp");
+    background-image: url("../img/fondos/fondosedes3.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
