@@ -67,24 +67,23 @@
                                 <li>Química</li>
                                 <li>Salud y adolescencia</li>
                                 <li>Tecnología electrónica</li>
-
                             </ul>
                         </div>
                         <div>
                             <h3>5to Año:</h3>
                             <ul>
-                                <li>Aplicaciones de electronica analogica
-                                <li>Aplicaciones de electrónica digital<li>
-                                <li>Diseños asistidos y simulación electrónica<li>
-                                <li>Educación física<li>
-                                <li>Geografía<li>
-                                <li>Historia (Bimodal)<li>
-                                <li>Inglés<li>
-                                <li>Lenguajes electrónicos<li>
-                                <li>Literatura<li>
-                                <li>Matemática<li>
-                                <li>Montaje de proyectos electrónicos<li>
-                                <li>Análisis de los modelos circuitales<li>
+                                <li>Aplicaciones de electronica analogica</li>
+                                <li>Aplicaciones de electrónica digital</li>
+                                <li>Diseños asistidos y simulación electrónica</li>
+                                <li>Educación física</li>
+                                <li>Geografía</li>
+                                <li>Historia (Bimodal)</li>
+                                <li>Inglés</li>
+                                <li>Lenguajes electrónicos</li>
+                                <li>Literatura</li>
+                                <li>Matemática</li>
+                                <li>Montaje de proyectos electrónicos</li>
+                                <li>Análisis de los modelos circuitales</li>
                                 <li>Politica y ciudadania (Bimodal)</li>
                             </ul>
                         </div>
