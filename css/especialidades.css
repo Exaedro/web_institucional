@@ -6,6 +6,16 @@ body{
     background-attachment: fixed;
 }
 
+img{
+    margin-left: 25%;
+    width: 50%;
+    transition: 0.25s;
+}
+
+img:hover{
+    transform: scale(1.05);
+}
+
 /* Reseteo de imágenes y sus tamaños */
 * {
     margin: 0;
@@ -20,16 +30,22 @@ body{
 /* Div bajo la barra superior */
 .info {
     width: 80%;
-    background-color: #62778b;
-    padding: 15px;
+    background-color: white;
+    border: solid #62778b 10px;
+    padding: 20px;
     text-align: center;
     margin: 20px auto 0;
     border-radius: 15px;
 }
 
-.info p {
-    font-size: 14px;
-    color: #ffffff;
+.info p{
+    font-size: 120%;
+    font-weight: bold;
+    color: black;
+}
+
+.info a{
+    color: #3971a5;
 }
 
 /* Div general */
@@ -59,7 +75,6 @@ body{
     transition: background-color 0.3s;
     font-size: 20px;
     font-weight: bold;
-    border-radius: 15px 15px 0 0;
 }
 
 .tab.active {
@@ -166,6 +181,15 @@ body{
 
 .Bimodalidad ul li{
     margin-bottom: 10px;
+}
+
+.LinkProyectos{
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.LinkProyectos a{
+    color: #3971a5;
 }
 
 .celeste {

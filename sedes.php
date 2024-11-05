@@ -17,7 +17,7 @@
             <h1 id="titulo">SEDES</h1>
             <div class="sedes-container">
                 <div class="sede">
-                    <img src="img/tecnica.jpg" alt="Técnica 1 Vicente López">
+                    <img src="img/fondos/fondo7.webp" alt="Técnica 1 Vicente López">
                     <h2>Sede 1: Técnica 1 Vicente López</h2>
                     <p>Sede principal, ahí van todos los cursos exclusivamente a estudiar ahí, a excepción de 6°3 que alterna con el Centro Universitario.</p>
                     <p><i class="bx bxs-map"></i><a class="gmaps" href="https://maps.app.goo.gl/HBeJV1LXDPM1Cvaa6">Cerrito 3966</a> </p>
