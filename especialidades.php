@@ -53,70 +53,71 @@
                         <div>
                             <h3>4to Año:</h3>
                             <ul>
-                                <li>Educación Física</li>
+                                <li>Aplicaciones de electronica analogica</li>
+                                <li>Aplicaciones de electrónica digital</li>
+                                <li>Educación física</li>
+                                <li>Fundamentos de los modelos circuitales</li>
                                 <li>Física</li>
                                 <li>Geografía</li>
                                 <li>Historia</li>
                                 <li>Inglés</li>
-                                <li>Laboratorio de Aplicaciones</li>
-                                <li>Laboratorio de Hardware</li>
-                                <li>Laboratorio de Programación</li>
-                                <li>Laboratorio de Sistemas Operativos</li>
                                 <li>Literatura</li>
                                 <li>Matemática</li>
+                                <li>Montaje de proyectos electrónicos</li>
                                 <li>Química</li>
-                                <li>Salud y Adolescencia</li>
-                                <li>Tecnología Electrónica</li>
+                                <li>Salud y adolescencia</li>
+                                <li>Tecnología electrónica</li>
+
                             </ul>
                         </div>
                         <div>
                             <h3>5to Año:</h3>
                             <ul>
-                                <li>Bases de Datos</li>
-                                <li>Educación Física</li>
-                                <li>Geografía</li>
-                                <li>Historia</li>
-                                <li>Inglés</li>
-                                <li>Laboratorio de Aplicaciones</li>
-                                <li>Laboratorio de Hardware</li>
-                                <li>Laboratorio de Programación</li>
-                                <li>Laboratorio de Sistemas Operativos</li>
-                                <li>Literatura</li>
-                                <li>Matemática</li>
-                                <li>Química</li>
-                                <li>Salud y Adolescencia</li>
-                                <li>Tecnología Electrónica</li>
+                                <li>Aplicaciones de electronica analogica
+                                <li>Aplicaciones de electrónica digital<li>
+                                <li>Diseños asistidos y simulación electrónica<li>
+                                <li>Educación física<li>
+                                <li>Geografía<li>
+                                <li>Historia (Bimodal)<li>
+                                <li>Inglés<li>
+                                <li>Lenguajes electrónicos<li>
+                                <li>Literatura<li>
+                                <li>Matemática<li>
+                                <li>Montaje de proyectos electrónicos<li>
+                                <li>Análisis de los modelos circuitales<li>
+                                <li>Politica y ciudadania (Bimodal)</li>
                             </ul>
                         </div>
                         <div>
                             <h3>6to Año:</h3>
                             <ul>
+                                <li>Aplicaciones de electronica analogica</li>
+                                <li>Aplicaciones de electrónica digital</li>
                                 <li>Arte (Bimodal)</li>
-                                <li>Derecho del Trabajo (Bimodal)</li>
-                                <li>Educación Física</li>
+                                <li>Derecho del trabajo (Bimodal)</li>
+                                <li>Educación física</li>
                                 <li>Filosofía (Bimodal)</li>
                                 <li>Inglés</li>
-                                <li>Laboratorio de Diseño Web Dinámico</li>
-                                <li>Laboratorio de Diseño Web Estático</li>
-                                <li>Laboratorio de Procesos Industriales</li>
-                                <li>Laboratorio de Programación</li>
-                                <li>Literatura</li>
-                                <li>Matemática Discreta</li>
-                                <li>Seguridad Informática (Parcialmente Bimodal)</li>
-                                <li>Sistema de Gestión y Autogestión (Bimodal)</li>
-                                <li>Sistemas Digitales II</li>
+                                <li>Instalaciones industriales</li>
+                                <li>Lenguajes electrónicos</li>
+                                <li>Literatura (Bimodal)</li>
+                                <li>Matemática aplicada</li>
+                                <li>Montaje de proyectos electrónicos</li>
+                                <li>Sistemas de Comunicaciones</li>
+                                <li>Sistemas Productivos (Bimodal)</li>
                             </ul>
                         </div>
                         <div>
                             <h3>7mo Año:</h3>
                             <ul>
-                                <li>Emprendimientos, Producción y Desarrollo Local (Bimodal)</li>
-                                <li>Evaluación de Proyectos</li>
-                                <li>Modelos y Sistemas II</li>
-                                <li>Organización y Métodos (Bimodal)</li>
-                                <li>Proyecto de Desarrollo de Software para Plataforma</li>
-                                <li>Proyecto de Implementación de Sitios Web Dinámicos</li>
-                                <li>Proyecto, Diseño e Implementación de Sistemas Complejos</li>
+                                <li>- Emprendimientos, productivos y desarrollo Local (Bimodal)</li>
+                                <li>Instalaciones industriales</li>
+                                <li>Proyecto y diseño electrónico</li>
+                                <li>Sistemas de Comunicaciones</li>
+                                <li>Sistemas de control</li>
+                                <li>Practicas Profesionalizantes</li>
+                                <li>Seguridad, Higiene y Protección ambiental (Bimodal)</li>
+                                <li>Electrónica aplicada.</li>
                             </ul>
                         </div>
                     </div>
