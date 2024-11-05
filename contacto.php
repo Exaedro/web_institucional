@@ -58,6 +58,7 @@
         <div class="map-container">
             <iframe src="https://maps.google.com/maps?q=eest%20n1%20vicente%20lopez&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=&amp;output=embed" frameborder="0" scrolling="no" style="width: 100%; height: 300px;"></iframe>
         </div>
+        <br>
         <div class="map-description">
             <h2>Establecimiento del Colegio</h2>
             <p>Este es el mapa de nuestra sede, ubicada en Vicente López. Aquí es donde se llevan a cabo todas las clases y  nuestras actividades escolares.</p>
@@ -68,7 +69,7 @@
 </main>
 
 <footer>
-   
+   <br><br><br><br><br><br><br><br>
 </footer>
 
 
