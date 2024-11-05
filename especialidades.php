@@ -153,46 +153,21 @@
                     </div>
                 </div>
 
-                <div id="perfil-electronica" class="section-content hidden">
+        	<div id="perfil-electronica" class="section-content hidden">
                     <h2>Perfil Académico</h2>
-                    <h3>El Técnico en Electrónica está capacitado para:</h3>
+                    <p>El título de Técnico en Electrónica habilita a los egresados para proyectar y diseñar componentes electrónicos, realizar ensayos y mediciones, realizar mantenimiento, montar e instalar equipos, seleccionar y comercializar productos, y desarrollar emprendimientos relacionados con la electrónica.</p>
+                    <p>Estos profesionales pueden desempeñarse en diversos ámbitos como la electrónica industrial, telecomunicaciones, instrumentación electrónica e informática.</p>
+                </div>
+		    
+                <div id="curricular-electronica" class="section-content hidden">
                     <div class="Bimodalidad">
-                        <ul>
-                            <li>
-                                <p>Proyectar y diseñar componentes y equipos electrónicos de baja y mediana complejidad.</p>
-                            </li>
-                            <li>
-                                <p>Realizar ensayos y mediciones en dispositivos y equipos electrónicos, verificando su funcionamiento y asegurando su calidad.</p>
-                            </li>
-                            <li>
-                                <p>Operar y mantener sistemas electrónicos, implementando mantenimiento preventivo y correctivo en equipos analógicos y digitales.</p>
-                            </li>
-                            <li>
-                                <p>Montar e instalar dispositivos electrónicos, cumpliendo con normas de seguridad y calidad en telecomunicaciones y control industrial.</p>
-                            </li>
-                        </ul>
+                        <h2>Diseño Curricular</h2>
+                        <p>La formación del Técnico en Electrónica abarca áreas como matemática, física, química, tecnología y economía, junto con conocimientos específicos en electrónica como el uso de materiales y herramientas, montaje de circuitos, dispositivos electrónicos, máquinas e instalaciones eléctricas, instrumentación, control electrónico, sistemas de telecomunicaciones y electrónica industrial.<p>
+                        <p>Además, incluye prácticas profesionalizantes que permiten aplicar los conocimientos teóricos en entornos reales.</p>
+                        <br>
+                        <p>La carga horaria mínima total de la carrera es de 6480 horas, distribuidas en formación general, científico-tecnológica (1700 horas), técnica específica (2000 horas) y prácticas profesionalizantes (mínimo 200 horas).</p>
                     </div>
-
-                    <h3>Habilidades:</h3>
-                    <div class="Bimodalidad">
-                        <ul>
-                            <li>
-                                <p>Interpretación de especificaciones: Analiza y comprende requisitos técnicos para proyectos de sistemas electrónicos.</p>
-                            </li>
-                            <li>
-                                <p>Planificación de trabajo: Organiza tareas y coordina actividades en equipos de trabajo, aplicando métodos de resolución de problemas.</p>
-                            </li>
-                            <li>
-                                <p>Producción de sistemas electrónicos: Desarrolla y verifica circuitos y dispositivos electrónicos.</p>
-                            </li>
-                            <li>
-                                <p>Documentación técnica: Realiza documentación detallada de sistemas electrónicos y manuales de uso y mantenimiento.</p>
-                            </li>
-                            <li>
-                                <p>Explotación de recursos: Aprovecha recursos de hardware y software en la implementación de soluciones electrónicas.</p>
-                            </li>
-                        </ul>
-                    </div>
+                </div>
 
                     <h3>Competencias Específicas:</h3>
                     <div class="Bimodalidad">
