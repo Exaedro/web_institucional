@@ -10,7 +10,7 @@
 <body>
 <?php
 
-$conn = new mysqli("192.168.12.123", "user", "cc", "admindb");
+$conn = new mysqli("192.168.12.123", "user", "kQfBEnCE2s3NmeR", "admindb");
 
 
 if ($conn->connect_error) {
