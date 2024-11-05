@@ -81,7 +81,7 @@ body {
     padding: 10px;
     max-height: 500px;
     background-color: #3E6897;
-    height: 48vh;
+    height: 50vh;
     animation: intro 0.5s ease-in-out forwards;
     animation-delay: 1.1s;
     opacity: 0;
@@ -113,7 +113,10 @@ body {
     border-radius: 10px;
 }
 
+.content li {
+    margin: 5px;
 
+}
 .content p {
     margin-top: 8px;
     font-size: 19px;
