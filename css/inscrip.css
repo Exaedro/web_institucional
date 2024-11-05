@@ -107,7 +107,7 @@ body {
 
 .content img {
     width: 40%;
-    height: 200px;
+    height: 190px;
     width: 240px;
     margin-left: 10px;
     border-radius: 10px;
@@ -116,7 +116,7 @@ body {
 
 .content p {
     margin-top: 8px;
-    font-size: 20px;
+    font-size: 19px;
     padding: 5px;
     color: white;
 }
