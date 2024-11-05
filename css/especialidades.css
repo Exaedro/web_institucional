@@ -3,6 +3,7 @@
 
 body{
     background-color: rgb(214, 213, 213);
+    background-attachment: fixed;
 }
 
 /* Reseteo de imágenes y sus tamaños */
@@ -156,6 +157,10 @@ body{
 }
 
 .Bimodalidad{
+    margin-left: 20px;
+}
+
+.Bimodalidad ol ul {
     margin-left: 20px;
 }
 

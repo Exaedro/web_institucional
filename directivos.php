@@ -11,8 +11,8 @@
     <div class="container">
         <h2>Lista de directivos</h2>
         <?php
-            #$conn = new mysqli("192.168.12.123", "user", "kQfBEnCE2s3NmeR", "adminDB");
-            $conn = new mysqli("localhost", "root", "", "adminDB"); #cambio esto para hacer pruebas
+            $conn = new mysqli("192.168.12.123", "user", "kQfBEnCE2s3NmeR", "adminDB");
+            #$conn = new mysqli("localhost", "root", "", "adminDB"); #cambio esto para hacer pruebas
             if ($conn->connect_error) {
                 die("Conexión fallida: " . $conn->connect_error);
             }
