@@ -53,7 +53,7 @@
 	<section id="sobre_nosotros">
 				<div class="container" id="container">
 					<h1>Acerca de nosotros </h1>
-					<p>Un poco mas de la Tecnica Nro°1</p>
+					<p>Un poco mas de la Técnica Nro°1</p>
 				</div>
 				<div class="cont_text ">
 					<img src="./img/nosotros/historia.webp" alt="" class="img">
@@ -95,8 +95,9 @@
 				<div class="cont_text reverse">
 					<div class="text">
 						<h2>Personal y Cooperadora</h2>
-						<p>La Asociación Cooperadora, presente desde los inicios de la escuela, ha desempeñado un rol esencial en el desarrollo y sostenimiento de la institución. Gracias a su apoyo constante, el edificio se ha mantenido en buen estado, la escuela cuenta con los insumos, materiales necesarios para el trabajo diario en las aulas y talleres.</p>
 						<p>El director de la escuela es el Prof. Ezequiel Torres y los vicedirectores son Lic. Prof. Mariana Bonetti, Lic. Prof. Karin Cuervo y Prof. Daniel Segnini.</p>
+						<p>La Asociación Cooperadora, presente desde los inicios de la escuela, ha desempeñado un rol esencial en el desarrollo y sostenimiento de la institución. Gracias a su apoyo constante, el edificio se ha mantenido en buen estado, la escuela cuenta con los insumos, materiales necesarios para el trabajo diario en las aulas y talleres.</p>
+			
 					</div>
 					<img src="./img/nosotros/personal.webp" alt="" class="img">
 				</div>
@@ -127,7 +128,7 @@
 	})
 
 	electronica.addEventListener("mouseleave", function() {
-		fondo.style.backgroundImage = "url('img/tecnica.jpg')";
+		fondo.style.backgroundImage = "url('img/fondos/fondo5.jpg')";
 	})
 
 	programacion.addEventListener("mouseenter", function() {
@@ -135,7 +136,7 @@
 	})
 
 	programacion.addEventListener("mouseleave", function() {
-		fondo.style.backgroundImage = "url('img/tecnica.jpg')";
+		fondo.style.backgroundImage = "url('img/fondos/fondo5.jpg')";
 	})
 
 	//cambiar la imagen de fondo de la seccion inscripciones
@@ -144,7 +145,7 @@
 	})
 
 	inscripciones.addEventListener("mouseleave", function() {
-		fondo.style.backgroundImage = "url('img/tecnica.jpg')";
+		fondo.style.backgroundImage = "url('img/fondos/fondo5.jpg')";
 	})
 
 	//cambiar la imagen de fondo de la seccion campos
@@ -153,7 +154,7 @@
 	})
 
 	campos.addEventListener("mouseleave", function() {
-		fondo.style.backgroundImage = "url('img/tecnica.jpg')";
+		fondo.style.backgroundImage = "url('img/fondos/fondo5.jpg')";
 	})
 
 	//cambiar la imagen de fondo de la seccion directivos
@@ -162,7 +163,7 @@
 	})
 
 	directivos.addEventListener("mouseleave", function() {
-		fondo.style.backgroundImage = "url('img/tecnica.jpg')";
+		fondo.style.backgroundImage = "url('img/fondos/fondo5.jpg')";
 	})
 </script>
 <script>

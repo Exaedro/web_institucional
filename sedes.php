@@ -17,7 +17,7 @@
             <h1 id="titulo">SEDES</h1>
             <div class="sedes-container">
                 <div class="sede">
-                    <img src="img/tecnica1vl.webp" alt="Técnica 1 Vicente López">
+                    <img src="img/fondos/fondo7.webp" alt="Técnica 1 Vicente López">
                     <h2>Sede 1: Técnica 1 Vicente López</h2>
                     <p>Sede principal, ahí van todos los cursos exclusivamente a estudiar ahí, a excepción de 6°3 que alterna con el Centro Universitario.</p>
                     <p><i class="bx bxs-map"></i><a class="gmaps" href="https://maps.app.goo.gl/HBeJV1LXDPM1Cvaa6">Cerrito 3966</a> </p>
@@ -43,20 +43,7 @@
         </section>
         
     </main>
-    <footer>
-        <div class="footer-rectangles">
-            <div class="rectangle rect1"></div>
-            <div class="rectangle rect2"></div>
-            <div class="rectangle rect3"></div>
-            <div class="rectangle rect4"></div>
-            <div class="rectangle rect5"></div>
-            <div class="rectangle rect6"></div>
-            <div class="rectangle rect7"></div>
-            <div class="rectangle rect8"></div>
-            <div class="rectangle rect9"></div>
-            <div class="rectangle rect10"></div>
-        </div>
-    </footer>
+
     <script>// Script para abrir y cerrar el menú lateral
 // Script para abrir y cerrar el menú lateral con animación
 const hamburger = document.querySelector('.hamburger');

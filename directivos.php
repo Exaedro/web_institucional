@@ -11,8 +11,7 @@
     <div class="container">
         <h2>Lista de directivos</h2>
         <?php
-            $conn = new mysqli("192.168.12.123", "user", "kQfBEnCE2s3NmeR", "adminDB");
-            #$conn = new mysqli("localhost", "root", "", "adminDB"); #cambio esto para hacer pruebas
+            $conn = new mysqli("192.168.12.123", "user", "kQfBEnCE2s3NmeR", "admindb");
             if ($conn->connect_error) {
                 die("Conexión fallida: " . $conn->connect_error);
             }
@@ -28,7 +27,7 @@
             if ($result->num_rows > 0) {
                 while ($row = $result->fetch_assoc()) {
                     // Verifica si img_url está vacío o la imagen no existe y usa sinFoto.png si es el caso
-                    $img_url = !empty($row['img_url']) && verificarImagen($row['img_url']) ? htmlspecialchars($row['img_url']) : 'img/Directivos/sinFoto.jpg';
+                    $img_url = !empty($row['img_url']) && verificarImagen($row['img_url']) ? htmlspecialchars($row['img_url']) : 'img/Directivos/sinFoto.webp';
                     
                     echo "<div class='directivo'>";
                         echo "<div class='directivo-header'>";

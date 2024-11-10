@@ -33,15 +33,13 @@
             const queTraer = document.querySelector('.quetraer');
             title.innerHTML = "¿Que hay que traer?"
             info.innerHTML = `
-              <li>Constancia de 6to grado aprobado (que diga sin adeudar materias)</li>
-              <li>Fotocopia de partida de nacimiento y de las vacunas aplicadas al alumno;;</li>
-              <li>Original y fotocopias del D.N.I. del alumno;</li>
-              <li>Original y fotocopias del D.N.I. de cada uno de los padres;</li>
-              <li>Fotocopias del D.N.I. de personas autorizadas a retirar al alumno;</li>
-              <li>2 fotos 4x4</li>
-              <li>Solicitud de inscripción con información de salud y Autorización de uso de imagen y personas autorizadas a retirar.;</li>
+              <li>Constancia de 6to grado aprobado (que diga sin adeudar materias).</li>
+              <li>Fotocopia de partida de nacimiento y de las vacunas aplicadas al alumno.</li>
+              <li>Original y fotocopias del D.N.I. del alumno y de cada uno de los padres.</li>
+              <li>Fotocopias del D.N.I. de personas autorizadas a retirar al alumno.</li>
+              <li>2 fotos 4x4.</li>
+              <li>Solicitud de inscripción con información de salud y Autorización de uso de imagen y personas autorizadas a retirar.</li>
               <li>1 Legajo. Se compra en la escuela, lo vende cooperadora en la fecha de inscripción.</li>
-              Consultas solo por mail: inscripcion@tecnica1vl.org
             `;
             porque.classList.remove("active")
             que.classList.add("active")
@@ -74,6 +72,7 @@
                 <h1 id="title">¿POR QUE INSCRiBIRSE EN LA TÉCNICA?</h1>
                 <p id="info">¿Te gusta resolver problemas y crear soluciones innovadoras? En nuestra escuela, contamos con los recursos necesarios para que puedas expresar tu creatividad. Tendrás acceso a computadoras, netbooks y herramientas de trabajo. Desde el primer día, estarás trabajando en proyectos, desde la creación de un horno solar, un semáforo con leds y de forma más avanzada la producción de circuitos electrónicos simples hasta aplicaciones web complejas. Esta experiencia te permitirá desarrollar habilidades clave como el pensamiento crítico, la resolución de problemas y el trabajo en equipo, preparándote para los desafíos del mundo profesional.</p>
                 <img id="insc-image" src="img/insc.png" alt="Inscripciones" style="display: none;"> <!-- Imagen añadida -->
+                <center><p>Consultas solo por mail: inscripcion@tecnica1vl.org</p></center>
             </div>
         </div>
     </main>
