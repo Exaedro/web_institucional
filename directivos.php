@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/directivos.css?v=1.0" />
-    <title>Lista de directivos</title>
+    <title>Autoridades</title>
 </head>
 <body>
 <?php include_once("navbar.php"); ?>
     <div class="container">
-        <h2>Lista de directivos</h2>
+        <h2>Lista de Autoridades</h2>
         <?php
             $conn = new mysqli("192.168.12.123", "user", "kQfBEnCE2s3NmeR", "admindb");
             if ($conn->connect_error) {
