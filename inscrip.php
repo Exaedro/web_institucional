@@ -10,6 +10,7 @@
         var porque = document.getElementById("1")
         var que = document.getElementById("2")
         var cuando = document.getElementById("3")
+        var materias = document.getElementById("4")
 
         var title = document.getElementById("title")
         var info = document.getElementById("info")
@@ -19,6 +20,7 @@
         porque.addEventListener("click", textPorque)
         que.addEventListener("click", textQue)
         cuando.addEventListener("click", textCuando)
+        materias.addEventListener("click", textMaterias)
 
         function textPorque() {
             title.innerHTML = "¿POR QUE INSCRIBIRSE EN LA TECNICA?"    
@@ -26,6 +28,7 @@
             porque.classList.add("active")   
             que.classList.remove("active") 
             cuando.classList.remove("active")
+            materias.classList.remove("active")
             image.style.display = "none"  // Oculta la imagen cuando no es necesario
         }    
 
@@ -44,17 +47,41 @@
             porque.classList.remove("active")
             que.classList.add("active")
             cuando.classList.remove("active")
+            materias.classList.remove("active")
             image.style.display = "none" // Oculta la imagen cuando no es necesario
             }      
 
         function textCuando() {
             title.innerHTML = "¿Cuando se abren las inscripciones?"    
-            info.innerHTML = "Las inscripciones se abren en el mes de Diciembre. Si le gustaria ver que proyectos fueron trabajados durante el año vengase a la Expotecnica de la escuela el día 15 de Noviembre, en el cual, se muestran todos los proyectos de todos los cursos."  
+            info.innerHTML = "Las inscripciones se abren en el mes de Diciembre. Si le gustaria ver que proyectos fueron trabajados durante el año vengase a la Expotecnica de la escuela el día 15 de Noviembre de 15:30 a 19:30 hs, en el cual, se muestran todos los proyectos de todos los cursos."  
             porque.classList.remove("active")   
             que.classList.remove("active") 
             cuando.classList.add("active")
+            materias.classList.remove("active")
             image.style.display = "block"  // Muestra la imagen solo en esta sección         
         }  
+
+        function textMaterias(){
+            title.innerHTML = "Materias Ciclo Básico"
+            info.innerHTML = `<div> Primer año
+              <li>Lenguajes Tecnológicos.</li>
+              <li>Procedimientos Técnicos.</li>
+              <li>Sistemas tecnológicos.</li>
+              <li>Ciencias Naturales.</li>
+              <li>Ciencias Sociales.</li>
+              <li>Construcción Ciudadana</li>
+              <li>Educación Física</li>
+              <li>Inglés</li>
+              <li>Matematica</li>
+              <li>Practicas del Lenguaje</li>
+    
+            `;
+            porque.classList.remove("active")
+            que.classList.remove("active")
+            cuando.classList.remove("active")
+            materias.classList.add("active")
+            image.style.display = "none"
+        }
     </script>
 
 </head>
@@ -66,12 +93,13 @@
             <div class="btn" id="1">¿Por qué inscribirse?</div>
             <div class="btn" id="2">¿Qué traer?</div>
             <div class="btn" id="3">¿Cuándo abren?</div>
+            <div class="btn" id="4">Materias C.B.</div>
         </div>
         <div class="content-holder">
             <div class="content">
                 <h1 id="title">¿POR QUE INSCRiBIRSE EN LA TÉCNICA?</h1>
                 <p id="info">¿Te gusta resolver problemas y crear soluciones innovadoras? En nuestra escuela, contamos con los recursos necesarios para que puedas expresar tu creatividad. Tendrás acceso a computadoras, netbooks y herramientas de trabajo. Desde el primer día, estarás trabajando en proyectos, desde la creación de un horno solar, un semáforo con leds y de forma más avanzada la producción de circuitos electrónicos simples hasta aplicaciones web complejas. Esta experiencia te permitirá desarrollar habilidades clave como el pensamiento crítico, la resolución de problemas y el trabajo en equipo, preparándote para los desafíos del mundo profesional.</p>
-                <img id="insc-image" src="img/insc.png" alt="Inscripciones" style="display: none;"> <!-- Imagen añadida -->
+                <img id="insc-image" src="img/insc.png" alt="Inscripciones" style="display: none;">
                 <center><p>Consultas solo por mail: inscripcion@tecnica1vl.org</p></center>
             </div>
         </div>
