@@ -41,7 +41,7 @@
 
 				<article class="directivos negro">
 					<a href="directivos.php">
-						<p>Directivos</p>
+						<p>Autoridades</p>
 					</a>
 				</article>
 
@@ -132,7 +132,7 @@
 	})
 
 	electronica.addEventListener("mouseleave", function() {
-		fondo.style.backgroundImage = "url('img/fondos/fondo5.jpg')";
+		fondo.style.backgroundImage = "url('img/fondos/|jpg')";
 	})
 
 	programacion.addEventListener("mouseenter", function() {
@@ -140,7 +140,7 @@
 	})
 
 	programacion.addEventListener("mouseleave", function() {
-		fondo.style.backgroundImage = "url('img/fondos/fondo5.jpg')";
+		fondo.style.backgroundImage = "url('img/fondos/fondo5.webp')";
 	})
 
 	//cambiar la imagen de fondo de la seccion inscripciones
@@ -149,7 +149,7 @@
 	})
 
 	inscripciones.addEventListener("mouseleave", function() {
-		fondo.style.backgroundImage = "url('img/fondos/fondo5.jpg')";
+		fondo.style.backgroundImage = "url('img/fondos/fondo5.webp')";
 	})
 
 	//cambiar la imagen de fondo de la seccion campos
@@ -158,7 +158,7 @@
 	})
 
 	campos.addEventListener("mouseleave", function() {
-		fondo.style.backgroundImage = "url('img/fondos/fondo5.jpg')";
+		fondo.style.backgroundImage = "url('img/fondos/fondo5.webp')";
 	})
 
 	//cambiar la imagen de fondo de la seccion directivos
@@ -167,7 +167,7 @@
 	})
 
 	directivos.addEventListener("mouseleave", function() {
-		fondo.style.backgroundImage = "url('img/fondos/fondo5.jpg')";
+		fondo.style.backgroundImage = "url('img/fondos/fondo5.webp')";
 	})
 </script>
 <script>
