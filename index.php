@@ -56,7 +56,9 @@
 					<p>Un poco mas de la Técnica Nro°1</p>
 				</div>
 				<div class="cont_text ">
+					
 					<img src="./img/nosotros/historia.webp" alt="" class="img">
+					
 					<div class="text">
 						<h2>Historia de la Escuela</h2>
 						<p>
@@ -66,31 +68,33 @@
 					</div>
 
 				</div>
-				<div class="cont_text ">
-					<div class="text">
+				<div class="cont_text reverse">
+				<img src="./img/nosotros/fundacion.webp" alt="" class="img">
+				
+				<div class="text">
 						<h2>Fundación y Crecimiento</h2>
 						<p>La idea de construir una escuela industrial en Villa Adelina surgió de Ceferino Fernández, miembro del Club de Leones, al notar la necesidad de un establecimiento de educación técnica en la zona. Con el apoyo del Club de Leones, el proyecto tomó forma, y en 1983 la escuela fue entregada a las autoridades municipales.</p>
 						<p>El 16 de abril de 1984, la escuela industrial de Villa Adelina abrió sus puertas en un predio de 800 m², recibiendo a sus primeros 72 estudiantes. Desde entonces, se ha convertido en un referente de educación técnica y una oportunidad de formación para los jóvenes.</p>
 					</div>
-					<img src="./img/nosotros/fundacion.webp" alt="" class="img">
+				
 				</div>
-				<div class="cont_text reverse">
+				<div class="cont_text ">
+				<img src="./img/nosotros/valores.webp" alt="" class="img">
 					<div class="text">
 						<h2>Valores de la escuela</h2>
 						<p>La Escuela de Educación Técnica N°1 "Eduardo Ader" se enfoca en la formación integral de sus estudiantes, promoviendo valores como la responsabilidad, el respeto y la solidaridad.</p>
 						<p>Ofrece una educación técnica de calidad que no solo imparte conocimientos específicos, sino que también apoya a los alumnos en la construcción de un proyecto de vida personal y profesional. Su objetivo es formar egresados con habilidades técnicas, preparados para enfrentar los desafíos del mundo moderno y contribuir positivamente a la comunidad.</p>
 					</div>
-					<img src="./img/nosotros/valores.webp" alt="" class="img">
 				</div>
-				<div class="cont_text">
+				<div class="cont_text reverse">
+				<img src="./img/nosotros/actualidad.webp" alt="" class="img">
 					<div class="text">
 						<h2>Actualidad</h2>
-						<p>
-						La Escuela de Educación Técnica N°1 "Eduardo Ader" ha crecido significativamente a lo largo de los años, alcanzando una matrícula de aproximadamente 750 alumnos distribuidos en turnos de mañana, tarde y noche. Actualmente, cuenta con catorce divisiones de ciclo básico y once de ciclo superior secundario.</p>
-						<p>La institución dispone de 20 aulas en total, de las cuales 9 son para realizar los talleres y las materias de laboratorio.</p>
+						<p>La Escuela de Educación Técnica N°1 "Eduardo Ader" ha crecido significativamente a lo largo de los años, alcanzando una matrícula de aproximadamente 750 alumnos distribuidos en turnos de mañana, tarde y noche.</p>
+						<p>Actualmente, cuenta con catorce divisiones de ciclo básico y once de ciclo superior secundario, La institución dispone de 20 aulas en total, de las cuales 9 son para realizar los talleres y las materias de laboratorio.</p>
 
 					</div>
-					<img src="./img/nosotros/actualidad.webp" alt="" class="img">
+					
 				</div>
 				<div class="cont_text reverse">
 					<div class="text">
@@ -105,7 +109,7 @@
 					<div class="text">
 						<h2>Código de Conducta</h2>
 						<p>El Código de Conducta de la escuela, es una guía en el desarrollo de los estudiantes, establece las normas y expectativas claras para el comportamiento, el respeto y el cumplimiento de las reglas tanto dentro como fuera del recinto escolar.</p>
-						<p>	Elaborado con el objetivo de fomentar un ambiente de aprendizaje seguro y respetuoso, busca promover valores como la responsabilidad, la empatía y la tolerancia entre todos los miembros de la comunidad educativa. La escuela busca crear un entorno en el que cada estudiante pueda desarrollar sus habilidades, en el que cada miembro de la comunidad pueda sentirse seguro y valorado.</p>
+						<p>	Elaborado con el objetivo de fomentar un ambiente de aprendizaje seguro y respetuoso, busca promover valores como la responsabilidad, la empatía y la tolerancia entre todos los miembros de la comunidad educativa. La escuela busca crear un entorno en el que cada estudiante pueda desarrollar sus habilidades.</p>
 					</div>
 					<img src="./img/nosotros/codigo.webp" alt="" class="img">
 				</div>
