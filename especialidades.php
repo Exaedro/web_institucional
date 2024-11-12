@@ -120,6 +120,9 @@
                             </ul>
                         </div>
                     </div>
+                    <br>
+                    <p class="LinkProyectos">Para ver los horarios de Ciclo Superior, haga clic <a href="https://docs.google.com/spreadsheets/d/1AFgWqZLsRZDaatKxRZh1GZzBkg34PU5N/edit?usp=sharing&ouid=104523949302020779981&rtpof=true&sd=true">aquí</a>.</p>
+                    <br>
                 </div>
 
                 <div id="bimodalidad-electronica" class="section-content hidden">
@@ -253,6 +256,9 @@
                                     </ul>
                             </div>
                     </div>
+                    <br>
+                    <p class="LinkProyectos">Para ver los horarios de Ciclo Superior, haga clic <a href="https://docs.google.com/spreadsheets/d/1AFgWqZLsRZDaatKxRZh1GZzBkg34PU5N/edit?usp=sharing&ouid=104523949302020779981&rtpof=true&sd=true">aquí</a>.</p>
+                    <br>
                 </div>
 
                 <div id="bimodalidad-programacion" class="section-content hidden">
@@ -260,6 +266,9 @@
                     <p>La bimodalidad en el diseño curricular combina enseñanza presencial y virtual, ofreciendo flexibilidad para que los estudiantes participen tanto en persona como en línea. Este modelo permite acceso remoto a contenidos, complementa la educación presencial con recursos digitales, y facilita el aprendizaje a ritmo propio en la modalidad virtual. Además, promueve la interacción continua entre estudiantes y docentes y permite evaluaciones y seguimiento en ambas modalidades.</p>
                     <br>
                     <img src="img/Bimodalidad.webp">
+                    <br>
+                <p class="LinkProyectos">Para más información, haga clic <a href="https://docs.google.com/document/d/15nm4FT8ioTXl-xg_fNKMyM1bZ5JyI0-Th8KQx1H3XHs/edit?usp=sharing">aquí</a>.</p>
+                <br>
                 </div>
 
                 <div id="perfil-programacion" class="section-content hidden">
@@ -267,6 +276,10 @@
                     <p>El Técnico en Programación desarrolla programas, interpreta y documenta especificaciones, verifica y ajusta software, y trabaja en equipo. Sus habilidades incluyen planificación, producción y depuración de software, y documentación técnica. Entre sus competencias destacan la abstracción, el pensamiento combinatorio, la autorregulación y la comunicación técnica. Sus funciones abarcan análisis de requisitos, desarrollo y verificación de componentes, revisiones de código y gestión de recursos informáticos para asegurar la calidad del software.</p>
                     <br>
                     <img src="img/PerfilAcademico.webp">
+                    <br>
+                    <br>
+                    <p class="LinkProyectos">Para más información, haga clic <a href="https://docs.google.com/document/d/15nm4FT8ioTXl-xg_fNKMyM1bZ5JyI0-Th8KQx1H3XHs/edit?usp=sharing">aquí</a>.</p>
+                    <br>
                 </div>
 
                 <div id="curricular-programacion" class="section-content hidden">
@@ -274,6 +287,10 @@
                 <p>El Diseño Curricular para el Técnico en Programación se estructura en formación general, científico-tecnológica y técnico-específica, con énfasis en programación, diseño de software, bases de datos e interfaces. Incluye prácticas profesionalizantes que vinculan a los estudiantes con el entorno laboral. Con 6480 horas de formación, el perfil profesional permite a los graduados trabajar en empresas de software, organizaciones públicas y privadas, y en emprendimientos propios, con competencias en desarrollo, depuración y documentación de software.</p>
                 <br>
                 <img src="img/DiseñoCurricular.webp">
+                <br>
+                <br>    
+                <p class="LinkProyectos">Para más información, haga clic <a href="https://docs.google.com/document/d/15nm4FT8ioTXl-xg_fNKMyM1bZ5JyI0-Th8KQx1H3XHs/edit?usp=sharing">aquí</a>.</p>
+                <br>
                 </div>
 
 
