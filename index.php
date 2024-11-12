@@ -41,7 +41,7 @@
 
 				<article class="directivos negro">
 					<a href="directivos.php">
-						<p>Directivos</p>
+						<p>Autoridades</p>
 					</a>
 				</article>
 
