@@ -64,6 +64,9 @@
             <p>Este es el mapa de nuestra sede, ubicada en Vicente López. Aquí es donde se llevan a cabo todas las clases y  nuestras actividades escolares.</p>
             <p><strong>Dirección:</strong> Cerrito 3966, Vicente López, Buenos Aires.</p>
             <p><strong>Teléfono:</strong> (011) 4735-0174</p>
+            <p><strong>Horario:</strong> Lunes a jueves de 7:35 a 11:30 hs</p>
+            <a href="https://crmtec1vl.blogspot.com/">Blog de la escuela</a>
+            
         </div>
     </div>
 </main>
