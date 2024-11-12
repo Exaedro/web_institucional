@@ -1,0 +1,18 @@
+
+poner ultimo "practicas" en materias
+
+cambiar correo en contacto (poner el de las inscripciones)
+
+poner por donde llegar al colegio (mas que consultar libros, instagram, ect)
+
+expotecnica 15:30 a 19:30 (poner horario)
+
+autoridades en vez de directivos (nav)
+
+poner plan del estudio de ciclo superior y basico
+
+intentar automatizar los mensajes que manda el usuario
+
+poner todos los correos para facilitar el uso 
+
+agregar ciclo basico
