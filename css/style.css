@@ -334,6 +334,7 @@ body {
     min-height: 100vh;
     display: flex;
     justify-content: center;
+    overflow: hidden;
     align-items: center;
     flex-direction: column;
     gap: 50px;
@@ -359,7 +360,7 @@ body {
 
 
 #sobre_nosotros .container h1 {
-    font-size: 6vw;
+    font-size: clamp(27px, 6vw, 120.2px);
     font-weight: 900;
     color: transparent;
     -webkit-text-stroke: 1px #1d1d1d;
@@ -373,7 +374,7 @@ body {
 
 #sobre_nosotros .container p {
     width: 90% !important;
-    font-size: 3vw;
+    font-size: clamp(16px, 3vw, 57.6px);
     font-weight: 500;
     font-weight: bold;
     color: #111111;
@@ -472,13 +473,13 @@ body {
         height: 30vh;
     }
 
-    #sobre_nosotros .container h1 {
+    /* #sobre_nosotros .container h1 {
         font-size: 5vw;
-    }
+    } */
 
-    #sobre_nosotros .container p {
+    /* #sobre_nosotros .container p {
         font-size: 3vw;
-    }
+    } */
     
     #sobre_nosotros .cont_text {
         width: 80%;
@@ -495,24 +496,31 @@ body {
         height: 30vh;
     }
 
-    #sobre_nosotros .container h1 {
+    /* #sobre_nosotros .container h1 {
         font-size: 5vw;
+    } */
+
+    /* #sobre_nosotros .container p {
+        font-size: 3vw;
+    } */
+    
+    #sobre_nosotros .cont_text {
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 45px;
     }
 
     #sobre_nosotros .container p {
-        font-size: 3vw;
-    }
-    
-    #sobre_nosotros .cont_text {
-        width: 90%;
-        flex-direction: column;
-        text-align: center;
+        top: 60%;
     }
 
     #sobre_nosotros .cont_text .img {
         height: 50vh;
-        width: 100%;
-        margin: 0 auto;
+        width: 100%!important;
+    }
+
+    #sobre_nosotros .cont_text img {
+        object-fit: cover;
     }
 
     #sobre_nosotros .cont_text .text{
@@ -526,6 +534,7 @@ body {
 
     #sobre_nosotros .cont_text .text p {
         font-size: 1rem;
+        text-wrap: pretty;
     }
 }
 
@@ -537,13 +546,17 @@ body {
         width: 90%;
     }
 
-    #sobre_nosotros .container h1 {
-        font-size: 4vw;
+    #sobre_nosotros .container p {
+        top: 50%;
     }
 
-    #sobre_nosotros .container p {
+    /* #sobre_nosotros .container h1 {
+        font-size: 4vw;
+    } */
+
+    /* #sobre_nosotros .container p {
         font-size: 2vw;
-    }
+    } */
 
     #sobre_nosotros .cont_text {
         flex-direction: column;
@@ -566,13 +579,13 @@ body {
 
 /* Responsivo para móviles pequeños (menos de 480px) */
 @media (max-width: 480px) {
-    #sobre_nosotros .container h1 {
+    /* #sobre_nosotros .container h1 {
         font-size: 3vw;
-    }
+    } */
 
-    #sobre_nosotros .container p {
+    /* #sobre_nosotros .container p {
         font-size: 1.8vw;
-    }
+    } */
 
     #sobre_nosotros .cont_text .text h2 {
         font-size: 1.2rem;
