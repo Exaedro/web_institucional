@@ -337,7 +337,7 @@ body {
     align-items: center;
     flex-direction: column;
     gap: 50px;
-    padding: 5% 0px;
+    padding: 5% 0;
     background-color: #ffffff;
 
 }
@@ -464,25 +464,121 @@ body {
     }
 } */
 
-@media (max-width: 1030px) {
+@media (max-width: 1024px) {
+    #sobre_nosotros .container {
+        padding: 60px 80px;
+        width: 90%;
+        left: 5%;
+        height: 30vh;
+    }
 
-    #sobre_nosotros .cont_text{
-        display: flex;
-        justify-content: center;
-        align-items: center !important;
-        
-        padding: 10px;
+    #sobre_nosotros .container h1 {
+        font-size: 5vw;
     }
-    #sobre_nosotros .cont_text .text p{
-        
-        display: flex;
-        justify-content: center;
-        align-items: center !important;
-        width: 100%;
-        
-    }
-    #sobre_nosotros .cont_text .img{
-        height: 40% !important;
+
+    #sobre_nosotros .container p {
+        font-size: 3vw;
     }
     
+    #sobre_nosotros .cont_text {
+        width: 80%;
+        gap: 20px;
+    }
+}
+
+
+@media (max-width: 930px) {
+    #sobre_nosotros .container {
+        padding: 60px 80px;
+        width: 80%;
+        left: 5%;
+        height: 30vh;
+    }
+
+    #sobre_nosotros .container h1 {
+        font-size: 5vw;
+    }
+
+    #sobre_nosotros .container p {
+        font-size: 3vw;
+    }
+    
+    #sobre_nosotros .cont_text {
+        width: 90%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #sobre_nosotros .cont_text .img {
+        height: 50vh;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #sobre_nosotros .cont_text .text{
+        height: auto;
+        margin-bottom: 2%;
+    }
+
+    #sobre_nosotros .cont_text .text h2 {
+        font-size: 1.8rem;
+    }
+
+    #sobre_nosotros .cont_text .text p {
+        font-size: 1rem;
+    }
+}
+
+
+@media (max-width: 768px) {
+    #sobre_nosotros .container {
+        padding: 30px;
+        left: 5%;
+        width: 90%;
+    }
+
+    #sobre_nosotros .container h1 {
+        font-size: 4vw;
+    }
+
+    #sobre_nosotros .container p {
+        font-size: 2vw;
+    }
+
+    #sobre_nosotros .cont_text {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    #sobre_nosotros .cont_text .img {
+        height: 50vh;
+        width: 100%;
+    }
+
+    #sobre_nosotros .cont_text .text h2 {
+        font-size: 1.5rem;
+    }
+
+    #sobre_nosotros .cont_text .text p {
+        font-size: 0.9rem;
+    }
+}
+
+/* Responsivo para móviles pequeños (menos de 480px) */
+@media (max-width: 480px) {
+    #sobre_nosotros .container h1 {
+        font-size: 3vw;
+    }
+
+    #sobre_nosotros .container p {
+        font-size: 1.8vw;
+    }
+
+    #sobre_nosotros .cont_text .text h2 {
+        font-size: 1.2rem;
+    }
+
+    #sobre_nosotros .cont_text .text p {
+        font-size: 0.8rem;
+    }
 }

@@ -74,7 +74,7 @@
 				<div class="text">
 						<h2>Fundación y Crecimiento</h2>
 						<p>La idea de construir una escuela industrial en Villa Adelina surgió de Ceferino Fernández, miembro del Club de Leones, al notar la necesidad de un establecimiento de educación técnica en la zona. Con el apoyo del Club de Leones, el proyecto tomó forma, y en 1983 la escuela fue entregada a las autoridades municipales.</p>
-						<p>El 16 de abril de 1984, la escuela industrial de Villa Adelina abrió sus puertas en un predio de 800 m², recibiendo a sus primeros 72 estudiantes. Desde entonces, se ha convertido en un referente de educación técnica y una oportunidad de formación para los jóvenes.</p>
+						<p>El 16 de abril de 1984, la escuela industrial de Villa Adelina abrió sus puertas en un predio de 800 m², recibiendo a sus primeros 72 estudiantes. Se ha convertido en un referente de educación técnica y una oportunidad de formación para los jóvenes.</p>
 					</div>
 				
 				</div>
