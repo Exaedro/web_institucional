@@ -63,18 +63,61 @@
 
         function textMaterias(){
             title.innerHTML = "Materias Ciclo Básico"
-            info.innerHTML = `<div> Primer año
-              <li>Lenguajes Tecnológicos.</li>
-              <li>Procedimientos Técnicos.</li>
-              <li>Sistemas tecnológicos.</li>
-              <li>Ciencias Naturales.</li>
-              <li>Ciencias Sociales.</li>
-              <li>Construcción Ciudadana</li>
-              <li>Educación Física</li>
-              <li>Inglés</li>
-              <li>Matematica</li>
-              <li>Practicas del Lenguaje</li>
-    
+            info.innerHTML = `
+            <div class="form-materia">
+              <div class="materia-column">
+                  <h2>Primer Año 1°</h2>
+                  <ul>
+                      <li>Lenguajes Tecnológicos.</li>
+                      <li>Procedimientos Técnicos.</li>
+                      <li>Sistemas Tecnológicos.</li>
+                      <li>Ciencias Naturales.</li>
+                      <li>Ciencias Sociales.</li>
+                      <li>Construcción Ciudadana</li>
+                      <li>Educación Artística</li>
+                      <li>Educación Física</li>
+                      <li>Inglés</li>
+                      <li>Matemática</li>
+                      <li>Prácticas del Lenguaje</li>
+                  </ul>
+              </div>
+              <div class="materia-column">
+                  <h2>Segundo Año 2°</h2>
+                  <ul>
+                      <li>Lenguajes Tecnológicos.</li>
+                      <li>Procedimientos Técnicos.</li>
+                      <li>Sistemas Tecnológicos.</li>
+                      <li>Biología</li>
+                      <li>Construcción Ciudadana</li>
+                      <li>Educación Artística</li>
+                      <li>Educación Física</li>
+                      <li>Físico-Química</li>
+                      <li>Geografía</li>
+                      <li>Historia</li>
+                      <li>Inglés</li>
+                      <li>Matemática</li>
+                      <li>Prácticas del Lenguaje</li>
+                  </ul>
+              </div>
+              <div class="materia-column">
+                  <h2>Tercer Año 3°</h2>
+                  <ul>
+                      <li>Lenguajes Tecnológicos.</li>
+                      <li>Procedimientos Técnicos.</li>
+                      <li>Sistemas Tecnológicos.</li>
+                      <li>Biología</li>
+                      <li>Construcción Ciudadana</li>
+                      <li>Educación Artística</li>
+                      <li>Educación Física</li>
+                      <li>Físico-Química</li>
+                      <li>Geografía</li>
+                      <li>Historia</li>
+                      <li>Inglés</li>
+                      <li>Matemática</li>
+                      <li>Prácticas del Lenguaje</li>
+                  </ul>
+              </div>
+            </div>
             `;
             porque.classList.remove("active")
             que.classList.remove("active")
