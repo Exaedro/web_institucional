@@ -51,6 +51,7 @@
 
 	</div>
 	<section id="sobre_nosotros">
+				
 				<div class="container" id="container">
 					<h1>Acerca de nosotros </h1>
 					<p>Un poco mas de la Técnica Nro°1</p>
