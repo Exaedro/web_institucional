@@ -47,14 +47,11 @@
 
 			</section>
 			
-		</main>
-
+			<a class="botonBajar" href="#sobre_nosotros">
+				<i class="fa-solid fa-arrow-down"></i>
+			</a>
 	</div>
 	<section id="sobre_nosotros">
-				<div class="container" id="container">
-					<h1>Acerca de nosotros </h1>
-					<p>Un poco mas de la Técnica Nro°1</p>
-				</div>
 				<div class="cont_text ">
 					
 					<img src="./img/nosotros/historia.webp" alt="" class="img">
