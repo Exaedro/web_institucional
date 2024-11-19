@@ -132,7 +132,7 @@
 	})
 
 	electronica.addEventListener("mouseleave", function() {
-		fondo.style.backgroundImage = "url('img/fondos/|jpg')";
+		fondo.style.backgroundImage = "url('img/fondos/fondo5.webp')";
 	})
 
 	programacion.addEventListener("mouseenter", function() {
