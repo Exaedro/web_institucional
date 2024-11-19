@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="stylesheet" href="../css/style.css" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-	<title>Escuela de Educación Secundaria Nro1</title>
-	<link rel="stylesheet" href="css/contactos.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Escuela de Educación Secundaria Nro1</title>
+    <link rel="stylesheet" href="css/contactos.css">
 </head>
 <body>
 <header>
     <?php include_once("./navbar.php"); ?>
 </header>
+
+
+
 
 <main class="container">
     <div class="contact-box">
@@ -26,25 +28,24 @@
 
             <!-- Redes sociales -->
             <div class="social-icons">
-               <a class="social" href="https://www.facebook.com/tecnicauno.vicentelopez/?locale=es_LA" target="_blank"><i class="fab fa-facebook-f">    Facebook</i></a> 
+               <a class="social" href="https://www.facebook.com/tecnicauno.vicentelopez/?locale=es_LA" target="_blank"><i class="fab fa-facebook-f">    Facebook</i></a>
             </div>
 
             <div class="social-icons">
-                <a href="https://www.instagram.com/tecnica_para_las_primaveras?utm_source=qr&igshid=OGU0MmVlOWVjOQ%3D%3D" target="_blank"><i class="fab fa-instagram">  Instagram</i></a>   
+                <a href="https://www.instagram.com/tecnica_para_las_primaveras?utm_source=qr&igshid=OGU0MmVlOWVjOQ%3D%3D" target="_blank"><i class="fab fa-instagram">  Instagram</i></a>  
             </div>
-
-           
         </div>
+
+
+
 
         <!-- Formulario de contacto -->
         <div class="contact-form">
             <form action="guardar_mensaje.php" method="post">
                 <label for="nombre">Nombre:</label>
                 <input type="text" id="nombre" name="nombre" required placeholder="Escribe tu nombre">
-
                 <label for="mail">Correo electrónico:</label>
                 <input type="email" id="mail" name="mail" required placeholder="Escribe tu correo">
-
                 <label for="mensaje">Mensaje:</label>
                 <textarea id="mensaje" name="mensaje" rows="4" required placeholder="Escribe tu mensaje"></textarea>
 
@@ -52,6 +53,9 @@
             </form>
         </div>
     </div>
+
+
+
 
     <!-- Sección del mapa debajo del formulario -->
     <div class="map-section">
@@ -66,14 +70,21 @@
             <p><strong>Teléfono:</strong> (011) 4735-0174</p>
             <p><strong>Horario:</strong> Lunes a jueves de 7:35 a 11:30 hs</p>
             <a href="https://crmtec1vl.blogspot.com/">Blog de la escuela</a>
-            
+           
         </div>
     </div>
 </main>
 
+
+
+
 <footer>
    <br><br><br><br><br><br><br><br>
 </footer>
+
+
+
+
 
 
 </body>
