@@ -47,8 +47,9 @@
 
 			</section>
 			
-		</main>
-
+			<a class="botonBajar" href="#sobre_nosotros">
+				<i class="fa-solid fa-arrow-down"></i>
+			</a>
 	</div>
 	<section id="sobre_nosotros">
 				

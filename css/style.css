@@ -1,6 +1,10 @@
 @import url('globales.css');
 @import url('componentes/navbar.css');
 
+html {
+    scroll-behavior: smooth!important;
+}
+
 body {
     overflow-y: scroll !important;
     overflow-x: hidden;
@@ -36,6 +40,7 @@ body {
 }
 
 .wrapper-inicio {
+    position: relative;
     background-image: url('../img/fondos/fondo5.webp');
     background-repeat: no-repeat;
     background-position: top;
@@ -63,6 +68,46 @@ body {
     align-items: center;
     justify-content: flex-end;
     padding: 40px;
+}
+
+.botonBajar {
+    position: absolute;
+    z-index: 100;
+    bottom: 50px;
+    left: 50%;
+    right: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    border-radius: 100%;
+    transform: translateX(-50%);
+    box-shadow: 0px 0px 18px #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3E6897;
+    animation: abajo infinite;
+    animation-duration: 2s;
+} 
+
+.botonBajar:hover {
+    background-color: #315a88;
+    transition: background 0.3s ease;
+}
+
+@keyframes abajo {
+    0% {
+        transform: translateY(0px)  translateX(-50%);
+    }
+
+    50% {
+        transform: translateY(-20px)  translateX(-50%);
+    }
+
+    100% {
+        transform: translateY(0px)  translateX(-50%); 
+    }
 }
 
 /*
