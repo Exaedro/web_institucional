@@ -376,7 +376,6 @@ body {
 /* estilo de sobre nosotros */
 #sobre_nosotros {
     width: 100%;
-    height: auto;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -384,8 +383,8 @@ body {
     align-items: center;
     flex-direction: column;
     gap: 50px;
-    padding: 5% 0;
-    background-color: rgba(0, 113, 165, 0.116);
+    padding: 40px;
+    background-color: rgba(48, 86, 126, 0.9);
      
 }
 
@@ -395,24 +394,32 @@ body {
 #sobre_nosotros .container {
     position: relative;
     left: 20%;
-    background-color: rgba(var(--color-primario), 65%);
-    padding: 100px 200px;
+    background-color: rgba(var(--color-primario), 50%);
+    height: auto;
     text-align: left;
-    height: 40vh;
-    width: 100%;
-    margin-bottom: 5%;
- 
+    height: 25vh;
+    width: 100vw;
+    margin-bottom: 10px;
+    
 }
 
-
+.text {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s, transform 0.5s;
+  }
+  
+.text.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
 
 
 #sobre_nosotros .container h1 {
-    font-size: clamp(27px, 6vw, 120.2px);
+    font-size: clamp(15px, 4vw, 100px);
     font-weight: 900;
-    color: transparent;
+    color: rgb(245, 245, 245);
     font-family: system-ui, sans-serif;
-    -webkit-text-stroke: 1px #ffffff;
     margin: 0;
     display: inline;
     position: absolute;
@@ -423,7 +430,7 @@ body {
 
 #sobre_nosotros .container p {
     width: 90% !important;
-    font-size: clamp(16px, 3vw, 57.6px);
+    font-size: clamp(14px, 3vw, 57.6px);
     font-weight: 500;
     font-weight: bold;
     color: #111111;
@@ -446,15 +453,16 @@ body {
 }
 
 #sobre_nosotros .cont_text {
-
-    min-height: 60vh;
-    height: auto;
-    width: 60%;
+    padding: 50px;
+    min-height: 58vh;
+    width: 75vw;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 60px;
-    background-color: transparent;
+    gap: 40px;
+    margin-bottom: 20px;
+ 
+    
 }
 
 #sobre_nosotros .cont_text .img-visible {
@@ -468,31 +476,34 @@ body {
 
 #sobre_nosotros .cont_text .img {
 
-    height: 50vh !important;
+    height: 45vh !important;
     width: 50% !important;
-    border-radius: 20px;
+    border-radius: 5px;
     transform: translateY(0px);
 }
 
 #sobre_nosotros .cont_text .text {
-    height: 50vh;
+    height: 40vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    color: #000;
+    color: var(--color-texto);
+    
 }
 
 #sobre_nosotros .cont_text .text p {
     margin-top: 8%;
     font-size: 1.1em;
-
+    text-align: justify;
 }
 
 #sobre_nosotros .cont_text .text h2 {
     font-size: 2.2em;
     position: relative;
+    width: auto;
+    
 }
 
 #sobre_nosotros .cont_text .text h2::after {
@@ -501,150 +512,49 @@ body {
     width: 30%;
     left: 0;
     height: 4px;
-    background-color: rgba(30, 68, 236, 0.925);
+    background-color: rgba(var(--color-primario), 50%);
     transition: all .2s ease-in-out;
-    bottom: -20%;
-}
-
-@media (max-width: 1450px) {
-    #sobre_nosotros .cont_text {
-        width: 90%;
-    }
-}
-
-/* @media (max-width: 1100px) {
-    #sobre_nosotros .cont_text{
- 
-    }
-} */
-
-@media (max-width: 1024px) {
-    #sobre_nosotros .container {
-        padding: 60px 80px;
-        width: 90%;
-        left: 5%;
-        height: 35vh;
-    }
-
-    /* #sobre_nosotros .container h1 {
-        font-size: 5vw;
-    } */
-
-    /* #sobre_nosotros .container p {
-        font-size: 3vw;
-    } */
-
-    #sobre_nosotros .cont_text {
-        width: 80%;
-        gap: 20px;
-    }
+    bottom: -22%;
 }
 
 
-@media (max-width: 930px) {
-    #sobre_nosotros .container {
-        padding: 60px 80px;
-        width: 80%;
-        left: 5%;
-        height: 30vh;
-    }
-
-    /* #sobre_nosotros .container h1 {
-        font-size: 5vw;
-    } */
-
-    /* #sobre_nosotros .container p {
-        font-size: 3vw;
-    } */
-
+@media (max-width: 1150px) {
     #sobre_nosotros .cont_text {
+        display: flex;
         flex-direction: column;
         text-align: center;
-        margin-bottom: 45px;
+        justify-content: center;
+        align-items: center;
     }
-
-    #sobre_nosotros .container p {
-        top: 60%;
-    }
-
-    #sobre_nosotros .cont_text .img {
-        height: 50vh;
-        width: 100% !important;
-    }
-
-    #sobre_nosotros .cont_text img {
+    #sobre_nosotros .cont_text .img{
+        height: 50vh !important;
+        width: 60vw !important;
         object-fit: cover;
     }
-
-    #sobre_nosotros .cont_text .text {
-        height: auto;
-        margin-bottom: 2%;
-    }
-
-    #sobre_nosotros .cont_text .text h2 {
-        font-size: 1.8rem;
-    }
-
-    #sobre_nosotros .cont_text .text p {
-        font-size: 1rem;
-        text-wrap: pretty;
-    }
 }
 
-
-@media (max-width: 768px) {
-    #sobre_nosotros .container {
-        padding: 30px;
-        left: 5%;
-        width: 90%;
+@media (max-width: 720px) {
+    #sobre_nosotros {
+        padding-right: 15px;
+        padding-left: 15px;
     }
-
-    #sobre_nosotros .container p {
-        top: 50%;
-    }
-
-    /* #sobre_nosotros .container h1 {
-        font-size: 4vw;
-    } */
-
-    /* #sobre_nosotros .container p {
-        font-size: 2vw;
-    } */
 
     #sobre_nosotros .cont_text {
+        padding: 0;
+        margin-bottom: 30px;
+    }
+    #sobre_nosotros .container {
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;        
+    }
+    #sobre_nosotros .container h1 {
+        font-size: 24px;
+        
+    }
+    #sobre_nosotros .reverse {
         flex-direction: column;
-        width: 90%;
-    }
-
-    #sobre_nosotros .cont_text .img {
-        height: 50vh;
-        width: 100%;
-    }
-
-    #sobre_nosotros .cont_text .text h2 {
-        font-size: 1.5rem;
-    }
-
-    #sobre_nosotros .cont_text .text p {
-        font-size: 0.9rem;
-    }
-}
-
-/* Responsivo para móviles pequeños (menos de 480px) */
-@media (max-width: 480px) {
-    /* #sobre_nosotros .container h1 {
-        font-size: 3vw;
-    } */
-
-    /* #sobre_nosotros .container p {
-        font-size: 1.8vw;
-    } */
-
-    #sobre_nosotros .cont_text .text h2 {
-        font-size: 1.2rem;
-    }
-
-    #sobre_nosotros .cont_text .text p {
-        font-size: 0.8rem;
     }
 }

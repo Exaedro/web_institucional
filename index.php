@@ -55,7 +55,7 @@
 				
 				<div class="container" id="container">
 					<h1>Acerca de nosotros </h1>
-					<p>Un poco mas de la Técnica Nro°1</p>
+					
 				</div>
 				<div class="cont_text ">
 					
@@ -64,8 +64,8 @@
 					<div class="text">
 						<h2>Historia de la Escuela</h2>
 						<p>
-						El edificio fue construido sobre terrenos donados generosamente por la señora Elisa Schulze de Ader y su hija, Ana Elisa Ader de Grümbaum, esposa e hija de don Bernardo Ader, quien ya había fallecido para entonces. Esta donación fue aceptada oficialmente por la Municipalidad mediante la Ordenanza N°644 en el año 1934. </p>
-						<p>Gracias a este gesto, la comunidad pudo contar con el espacio necesario para desarrollar un proyecto que beneficiaría a los habitantes de la zona, consolidando un legado de compromiso y contribución social que continuaría durante los años siguientes.</p>
+						El edificio fue construido sobre <b>terrenos donados</b> generosamente por la señora Elisa Schulze de Ader y su hija, Ana Elisa Ader de Grümbaum, esposa e hija de don Bernardo Ader, quien ya había fallecido para entonces. Esta <b>donación</b> fue aceptada oficialmente por la <b>Municipalidad</b> mediante la Ordenanza N°644 en el año 1934. </p>
+						<p>Gracias a este gesto, la comunidad pudo contar con el espacio necesario para desarrollar un proyecto que beneficiaría a los habitantes de la zona, consolidando un <b>legado</b> de compromiso y contribución social que continuaría durante los años siguientes.</p>
 
 					</div>
 
@@ -81,7 +81,7 @@
 				
 				</div>
 				<div class="cont_text ">
-				<img src="./img/nosotros/valores.webp" alt="" class="img">
+				<img src="./img/nosotros/prueba.jpg" alt="" class="img">
 					<div class="text">
 						<h2>Valores de la escuela</h2>
 						<p>La Escuela de Educación Técnica N°1 "Eduardo Ader" se enfoca en la formación integral de sus estudiantes, promoviendo valores como la responsabilidad, el respeto y la solidaridad.</p>
@@ -197,6 +197,28 @@
 
 	// Observa cada elemento en la lista combinada
 	elementsToObserve.forEach((element) => observer.observe(element));
+</script>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const textElements = document.querySelectorAll(".text");
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+          } else {
+            entry.target.classList.remove("visible");
+          }
+        });
+      },
+      {
+        threshold: 0.5,
+      }
+    );
+
+    textElements.forEach((element) => observer.observe(element));
+  });
 </script>
 
 </html>
