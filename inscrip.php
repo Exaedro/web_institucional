@@ -30,6 +30,7 @@
             cuando.classList.remove("active")
             materias.classList.remove("active")
             image.style.display = "none"  // Oculta la imagen cuando no es necesario
+            document.getElementById("insc-video").style.display = "none";
         }    
 
         function textQue() {
@@ -48,18 +49,23 @@
             que.classList.add("active")
             cuando.classList.remove("active")
             materias.classList.remove("active")
-            image.style.display = "none" // Oculta la imagen cuando no es necesario
-            }      
+            image.style.display = "none" 
+            document.getElementById("insc-video").style.display = "none";    
+        }      
 
-        function textCuando() {
-            title.innerHTML = "¿Cuando se abren las inscripciones?"    
-            info.innerHTML = "Las inscripciones se abren en el mes de Diciembre. Si le gustaria ver que proyectos fueron trabajados durante el año vengase a la Expotecnica de la escuela el día 15 de Noviembre de 15:30 a 19:30 hs, en el cual, se muestran todos los proyectos de todos los cursos."  
-            porque.classList.remove("active")   
-            que.classList.remove("active") 
-            cuando.classList.add("active")
-            materias.classList.remove("active")
-            image.style.display = "block"  // Muestra la imagen solo en esta sección         
-        }  
+            function textCuando() {
+            title.innerHTML = "¿Cuándo se abren las inscripciones?";    
+            info.innerHTML = "Las inscripciones se abren en el mes de Diciembre, para esto usted tiene que llevar todo lo que dice en la sección de Qué Traer. En el mes de Noviembre de cada año se realiza lo que se llama la ExpoTécnica, que consiste en una exposición sobre los Proyectos trabajados durante el año y las personas que quieran ingresar a la escuela para ver estos proyectos son bienvenidos. Lo siguiente es un video que se hizo en vivo sobre la Expotécnica: ";  
+            porque.classList.remove("active");   
+            que.classList.remove("active"); 
+            cuando.classList.add("active");
+            materias.classList.remove("active");
+
+            // Oculta la imagen y muestra el video
+            image.style.display = "none";
+            document.getElementById("insc-video").style.display = "block";
+        }
+  
 
         function textMaterias(){
             title.innerHTML = "Materias Ciclo Básico"
@@ -124,6 +130,7 @@
             cuando.classList.remove("active")
             materias.classList.add("active")
             image.style.display = "none"
+            document.getElementById("insc-video").style.display = "none";
         }
     </script>
 
@@ -139,12 +146,14 @@
             <div class="btn" id="4">Materias C.B.</div>
         </div>
         <div class="content-holder">
-            <div class="content">
-                <h1 id="title">¿POR QUE INSCRiBIRSE EN LA TÉCNICA?</h1>
-                <p id="info">¿Te gusta resolver problemas y crear soluciones innovadoras? En nuestra escuela, contamos con los recursos necesarios para que puedas expresar tu creatividad. Tendrás acceso a computadoras, netbooks y herramientas de trabajo. Desde el primer día, estarás trabajando en proyectos, desde la creación de un horno solar, un semáforo con leds y de forma más avanzada la producción de circuitos electrónicos simples hasta aplicaciones web complejas. Esta experiencia te permitirá desarrollar habilidades clave como el pensamiento crítico, la resolución de problemas y el trabajo en equipo, preparándote para los desafíos del mundo profesional.</p>
-                <img id="insc-image" src="img/insc.png" alt="Inscripciones" style="display: none;">
-                <center><p>Consultas solo por mail: inscripcion@tecnica1vl.org</p></center>
-            </div>
+        <div class="content">
+            <h1 id="title">¿POR QUE INSCRiBIRSE EN LA TÉCNICA?</h1>
+            <p id="info">¿Te gusta resolver problemas y crear soluciones innovadoras? En nuestra escuela, contamos con los recursos necesarios para que puedas expresar tu creatividad. Tendrás acceso a computadoras, netbooks y herramientas de trabajo. Desde el primer día, estarás trabajando en proyectos, desde la creación de un horno solar, un semáforo con leds y de forma más avanzada la producción de circuitos electrónicos simples hasta aplicaciones web complejas. Esta experiencia te permitirá desarrollar habilidades clave como el pensamiento crítico, la resolución de problemas y el trabajo en equipo, preparándote para los desafíos del mundo profesional.</p>
+            <img id="insc-image" src="img/insc.png" alt="Inscripciones" style="display: none;">
+            <iframe id="insc-video" width="560" height="395" src="https://www.youtube.com/embed/KXPRl7s9-dI?si=4Z9W0Q4s5myx5S6J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="display: none;"></iframe>
+            <center><p>Consultas solo por mail: inscripcion@tecnica1vl.org</p></center>
+        </div>
+
         </div>
     </main>
 </body>
