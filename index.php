@@ -81,7 +81,7 @@
 				
 				</div>
 				<div class="cont_text ">
-				<img src="./img/nosotros/prueba.jpg" alt="" class="img">
+				<img src="./img/nosotros/prueba.webp" alt="" class="img">
 					<div class="text">
 						<h2>Valores de la escuela</h2>
 						<p>La Escuela de Educación Técnica N°1 "Eduardo Ader" se enfoca en la formación integral de sus estudiantes, promoviendo valores como la responsabilidad, el respeto y la solidaridad.</p>
