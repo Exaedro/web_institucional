@@ -64,8 +64,8 @@
 					<div class="text">
 						<h2>Historia de la Escuela</h2>
 						<p>
-						El edificio fue construido sobre <b>terrenos donados</b> generosamente por la señora Elisa Schulze de Ader y su hija, Ana Elisa Ader de Grümbaum, esposa e hija de don Bernardo Ader, quien ya había fallecido para entonces. Esta <b>donación</b> fue aceptada oficialmente por la <b>Municipalidad</b> mediante la Ordenanza N°644 en el año 1934. </p>
-						<p>Gracias a este gesto, la comunidad pudo contar con el espacio necesario para desarrollar un proyecto que beneficiaría a los habitantes de la zona, consolidando un <b>legado</b> de compromiso y contribución social que continuaría durante los años siguientes.</p>
+						El edificio fue construido sobre terrenos donados generosamente por la señora Elisa Schulze de Ader y su hija, Ana Elisa Ader de Grümbaum, esposa e hija de don Bernardo Ader, quien ya había fallecido para entonces. Esta donación fue aceptada oficialmente por la Municipalidad mediante la Ordenanza N°644 en el año 1934. </p>
+						<p>Gracias a este gesto, la comunidad pudo contar con el espacio necesario para desarrollar un proyecto que beneficiaría a los habitantes de la zona, consolidando un legado de compromiso y contribución social que continuaría durante los años siguientes.</p>
 
 					</div>
 
@@ -92,7 +92,7 @@
 				<img src="./img/nosotros/actualidad.webp" alt="" class="img">
 					<div class="text">
 						<h2>Actualidad</h2>
-						<p>La Escuela de Educación Técnica N°1 "Eduardo Ader" ha crecido significativamente a lo largo de los años, alcanzando una matrícula de aproximadamente 750 alumnos distribuidos en turnos de mañana, tarde y noche.</p>
+						<p>La Escuela de Educación Técnica N°1 "Eduardo Ader" ha crecido significativamente a lo largo de los años, alcanzando una matrícula de aproximadamente 750 alumnos distribuidos en turnos de mañana, tarde y vespertino.</p>
 						<p>Actualmente, cuenta con catorce divisiones de ciclo básico y once de ciclo superior secundario, La institución dispone de 20 aulas en total, de las cuales 9 son para realizar los talleres y las materias de laboratorio.</p>
 
 					</div>
