@@ -456,7 +456,7 @@ body {
 #sobre_nosotros .cont_text {
     padding: 50px;
     min-height: 58vh;
-    width: 90vw;
+    width: 85vw;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -553,19 +553,20 @@ body {
 
     #sobre_nosotros .cont_text {
         padding: 0;
-        margin-bottom: 30px;
+        margin-bottom: 80px;
+        font-size: 14px;
     }
 
     #sobre_nosotros .container {
         height: 10vh !important;
     }
-
+    #sobre_nosotros .cont_text .img {
+        margin-top: 10px;
+    }
     #sobre_nosotros .container h1 {
         font-size: 24px;
 
     }
 
-    #sobre_nosotros .reverse {
-        flex-direction: column;
-    }
+    
 }
