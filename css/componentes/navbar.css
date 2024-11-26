@@ -7,7 +7,7 @@ nav {
     padding: 15px;
     display: flex;
     align-items: center;
-    background-color: rgba(57, 86, 118, 0.5);
+    background-color: #39567680;
     backdrop-filter: blur(10px);
 }
 
@@ -41,7 +41,7 @@ nav {
 }
 
 .desac:hover {
-    background-color: rgba(65, 65, 65, 0.137);
+    background-color: #41414123;
 }
 
 .navbar-body ul {
@@ -61,7 +61,7 @@ nav {
         position: absolute;
         top: 100%;
         left: 0;
-        background-color: rgba(57, 86, 118, 0.9);
+        background-color: #395776;
         width: 100%;
         font-size: 20px;
         text-align: center;
