@@ -55,7 +55,7 @@
 
             function textCuando() {
             title.innerHTML = "¿Cuándo se abren las inscripciones?";    
-            info.innerHTML = "Las inscripciones se abren en el mes de Diciembre, para esto usted tiene que llevar todo lo que dice en la sección de Qué Traer. En el mes de Noviembre de cada año se realiza lo que se llama la ExpoTécnica, que consiste en una exposición sobre los Proyectos trabajados durante el año y las personas que quieran ingresar a la escuela para ver estos proyectos son bienvenidos. A continuación, dejamos un video de lo que fue la Expotécnica 2024: ";  
+            info.innerHTML = "Las inscripciones se abren en el mes de Diciembre, para esto usted tiene que llevar todo lo que dice en la sección de Qué Traer. En el mes de Noviembre de cada año se realiza lo que se llama la ExpoTécnica, que consiste en una exposición sobre los Proyectos trabajados durante el año y las personas que quieran ingresar a la escuela para ver estos proyectos son bienvenidos. Lo siguiente es un video que se hizo en vivo sobre la Expotécnica: ";  
             porque.classList.remove("active");   
             que.classList.remove("active"); 
             cuando.classList.add("active");

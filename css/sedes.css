@@ -8,8 +8,16 @@ html, body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    overflow: hidden;
 
 }
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 main {
     min-height: calc(100vh - 40px); /* 40px es la altura del footer */
 }
@@ -69,6 +77,8 @@ main {
     justify-content: space-around;
     flex-wrap: wrap;
     margin-bottom: 45px;
+    max-height: 100vh;
+    overflow: auto;
 }
 
 .sede {
@@ -181,8 +191,24 @@ footer {
     cursor: pointer;
     margin-right: 20px;
 }
-@media (max-widht: 1200px) {
-    footer{opacity: 0;}
+
+@media (max-width: 1400px){
+    html,body{
+        overflow: auto;
+    }
+    .sedes-container{
+        overflow: hidden;
+        max-height: 200vh;
+    }
+}
+@media (max-width: 1200px) {
+html,body{
+    overflow: auto;
+}
+.sedes-container{
+    overflow: hidden;
+    max-height: 200vh;
+}
 }
 @media (max-width: 768px) {
     .hamburger {
